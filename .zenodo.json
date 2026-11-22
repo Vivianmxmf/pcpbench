@@ -1,0 +1,16 @@
+{
+  "title": "pcpbench: A Benchmark for Per-Class Conformal Coverage under Distribution Shift",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {"name": "Han, Weijia", "affiliation": "University of Washington"},
+    {"name": "Qu, Lisha", "affiliation": "University of Washington"}
+  ],
+  "keywords": ["conformal prediction", "distribution shift", "benchmark", "per-class coverage"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/Vivianmxmf/pcpbench/tree/v1.0.0", "relation": "isSupplementTo", "resource_type": "software"}
+  ],
+  "description": "<p>pcpbench is a benchmark of per-class conformal coverage under distribution shift.</p><p><code>pcpbench-1.0.0.zip</code> holds the evaluation library, the per-row outputs behind the leaderboards, the analysis scripts, and the script and tests that regenerate every number the paper prints.</p><p><code>pcpbench-1.0.0-caches.tar</code> holds one cache per condition of the leaderboard, 175 in all, each with the class scores, labels and partition of its rows. Extracted at the root of the repository, it fills <code>caches/</code>.</p><p>The code, per-row outputs and analysis files are released under the MIT license. Each upstream dataset keeps its own license and access terms, and the terms of access of ImageNet-1k apply to its ten caches.</p>"
+}

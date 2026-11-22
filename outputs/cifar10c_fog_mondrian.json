@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_fog",
+  "method": "mondrian",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.14179999999999998,
+  "marginal_std": 2.7755575615628914e-17,
+  "worst_class": 0.03400000000000001,
+  "worst_class_std": 6.938893903907228e-18,
+  "frac_undercovered": 1.0,
+  "frac_undercovered_std": 0.0,
+  "mean_set_size": 0.24420000000000003,
+  "mean_set_size_std": 2.7755575615628914e-17
+}

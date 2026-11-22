@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_contrast",
+  "method": "oracle",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.901,
+  "marginal_std": 0.0,
+  "worst_class": 0.901,
+  "worst_class_std": 0.0,
+  "frac_undercovered": 0.0,
+  "frac_undercovered_std": 0.0,
+  "mean_set_size": 1.4606999999999999,
+  "mean_set_size_std": 2.220446049250313e-16
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_contrast",
+  "method": "acp",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.9925,
+  "marginal_std": 0.0,
+  "worst_class": 0.9480000000000001,
+  "worst_class_std": 1.1102230246251565e-16,
+  "frac_undercovered": 0.0,
+  "frac_undercovered_std": 0.0,
+  "mean_set_size": 8.6849,
+  "mean_set_size_std": 0.0
+}

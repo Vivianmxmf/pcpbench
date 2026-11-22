@@ -1,0 +1,6214 @@
+{
+  "cache": "caches/ntu2nucla.npz",
+  "alpha": 0.1,
+  "seeds": 10,
+  "eval_frac": 0.5,
+  "per_seed": [
+    {
+      "method": "acp",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.553956834532374,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.553956834532374
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8543793086449084,
+      "floor_sd": 0.031817977352104655
+    },
+    {
+      "method": "acp",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9976019184652278,
+        "marginal_std": 0.0,
+        "worst_class": 0.9880952380952381,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.405275779376499,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9976019184652278
+          ],
+          "worst_class": [
+            0.9880952380952381
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.405275779376499
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            0.9880952380952381,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8547703180664563,
+      "floor_sd": 0.0318674498314435
+    },
+    {
+      "method": "acp",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.357314148681056,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.357314148681056
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8548029601815681,
+      "floor_sd": 0.03141511185932282
+    },
+    {
+      "method": "acp",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.563549160671463,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.563549160671463
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.853984665078974,
+      "floor_sd": 0.03193968972466809
+    },
+    {
+      "method": "acp",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.486810551558753,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.486810551558753
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8543236447175979,
+      "floor_sd": 0.03204933371947789
+    },
+    {
+      "method": "acp",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.517985611510792,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.517985611510792
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8547194150418236,
+      "floor_sd": 0.03219353918552665
+    },
+    {
+      "method": "acp",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.539568345323741,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.539568345323741
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8545893387025503,
+      "floor_sd": 0.03192531969785649
+    },
+    {
+      "method": "acp",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.405275779376499,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.405275779376499
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8546737733998913,
+      "floor_sd": 0.03172164962649202
+    },
+    {
+      "method": "acp",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.477218225419664,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.477218225419664
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8545436771166954,
+      "floor_sd": 0.031641069909020464
+    },
+    {
+      "method": "acp",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 1.0,
+        "marginal_std": 0.0,
+        "worst_class": 1.0,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 4.333333333333333,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            1.0
+          ],
+          "worst_class": [
+            1.0
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            4.333333333333333
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8549693616625019,
+      "floor_sd": 0.031722139136140456
+    },
+    {
+      "method": "clustered",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9064748201438849,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9184652278177458,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9064748201438849
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9184652278177458
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.9146341463414634,
+            0.9523809523809523,
+            0.8518518518518519,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8531829944821815,
+      "floor_sd": 0.03188969546522416
+    },
+    {
+      "method": "clustered",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.882494004796163,
+        "marginal_std": 0.0,
+        "worst_class": 0.7901234567901234,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8968824940047961,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.882494004796163
+          ],
+          "worst_class": [
+            0.7901234567901234
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8968824940047961
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.9390243902439024,
+            0.9047619047619048,
+            0.7901234567901234,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8535854289116483,
+      "floor_sd": 0.03226406494545237
+    },
+    {
+      "method": "clustered",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9184652278177458,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9376498800959233,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9184652278177458
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9376498800959233
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9642857142857143,
+            0.8518518518518519,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8529097599592518,
+      "floor_sd": 0.03186799470643799
+    },
+    {
+      "method": "clustered",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8896882494004796,
+        "marginal_std": 0.0,
+        "worst_class": 0.8271604938271605,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9016786570743405,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8896882494004796
+          ],
+          "worst_class": [
+            0.8271604938271605
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9016786570743405
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9390243902439024,
+            0.8780487804878049,
+            0.9285714285714286,
+            0.8271604938271605,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8529450065404333,
+      "floor_sd": 0.032035565635723434
+    },
+    {
+      "method": "clustered",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9040767386091128,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8920863309352518
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9040767386091128
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.8902439024390244,
+            0.9523809523809523,
+            0.8024691358024691,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8530606285219597,
+      "floor_sd": 0.032257749203652916
+    },
+    {
+      "method": "clustered",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8968824940047961,
+        "marginal_std": 0.0,
+        "worst_class": 0.8148148148148148,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8968824940047961
+          ],
+          "worst_class": [
+            0.8148148148148148
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.926829268292683,
+            0.9285714285714286,
+            0.8148148148148148,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8534025808315444,
+      "floor_sd": 0.03242721909576233
+    },
+    {
+      "method": "clustered",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9088729016786571,
+        "marginal_std": 0.0,
+        "worst_class": 0.8271604938271605,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9328537170263789,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9088729016786571
+          ],
+          "worst_class": [
+            0.8271604938271605
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9328537170263789
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9404761904761905,
+            0.8271604938271605,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8532386655462875,
+      "floor_sd": 0.03212396000516265
+    },
+    {
+      "method": "clustered",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9160671462829736,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9304556354916067,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9160671462829736
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9304556354916067
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.9390243902439024,
+            0.9761904761904762,
+            0.8518518518518519,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8535307948826241,
+      "floor_sd": 0.0320863649906386
+    },
+    {
+      "method": "clustered",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8705035971223022,
+        "marginal_std": 0.0,
+        "worst_class": 0.7407407407407407,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8848920863309353,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8705035971223022
+          ],
+          "worst_class": [
+            0.7407407407407407
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8848920863309353
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9634146341463414,
+            0.8414634146341463,
+            0.9166666666666666,
+            0.7407407407407407,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8534505514396775,
+      "floor_sd": 0.03213696986290563
+    },
+    {
+      "method": "clustered",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8776978417266187,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9016786570743405,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8776978417266187
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9016786570743405
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.926829268292683,
+            0.8414634146341463,
+            0.9761904761904762,
+            0.8024691358024691,
+            0.8409090909090909
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            149,
+            160,
+            162,
+            156,
+            166
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8536944302197349,
+      "floor_sd": 0.032253625215443664
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8992805755395683,
+        "marginal_std": 0.0,
+        "worst_class": 0.8292682926829268,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9184652278177458,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8992805755395683
+          ],
+          "worst_class": [
+            0.8292682926829268
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9184652278177458
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8292682926829268,
+            0.9146341463414634,
+            0.8928571428571429,
+            0.9012345679012346,
+            0.9545454545454546
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543793086449084,
+      "floor_sd": 0.031817977352104655
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8800959232613909,
+        "marginal_std": 0.0,
+        "worst_class": 0.8409090909090909,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8992805755395683,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8800959232613909
+          ],
+          "worst_class": [
+            0.8409090909090909
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.8992805755395683
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8414634146341463,
+            0.9634146341463414,
+            0.8571428571428571,
+            0.9012345679012346,
+            0.8409090909090909
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547703180664563,
+      "floor_sd": 0.0318674498314435
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9088729016786571,
+        "marginal_std": 0.0,
+        "worst_class": 0.875,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.935251798561151,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9088729016786571
+          ],
+          "worst_class": [
+            0.875
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.935251798561151
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.8928571428571429,
+            0.8888888888888888,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8548029601815681,
+      "floor_sd": 0.03141511185932282
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.894484412470024,
+        "marginal_std": 0.0,
+        "worst_class": 0.8641975308641975,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9064748201438849,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.894484412470024
+          ],
+          "worst_class": [
+            0.8641975308641975
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9064748201438849
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9390243902439024,
+            0.8780487804878049,
+            0.9166666666666666,
+            0.8641975308641975,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.853984665078974,
+      "floor_sd": 0.03193968972466809
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.894484412470024,
+        "marginal_std": 0.0,
+        "worst_class": 0.8641975308641975,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9088729016786571,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.894484412470024
+          ],
+          "worst_class": [
+            0.8641975308641975
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9088729016786571
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.8658536585365854,
+            0.9285714285714286,
+            0.8641975308641975,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543236447175979,
+      "floor_sd": 0.03204933371947789
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8968824940047961,
+        "marginal_std": 0.0,
+        "worst_class": 0.8765432098765432,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9376498800959233,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8968824940047961
+          ],
+          "worst_class": [
+            0.8765432098765432
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9376498800959233
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.9024390243902439,
+            0.8809523809523809,
+            0.8765432098765432,
+            0.9204545454545454
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547194150418236,
+      "floor_sd": 0.03219353918552665
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9064748201438849,
+        "marginal_std": 0.0,
+        "worst_class": 0.8641975308641975,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9328537170263789,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9064748201438849
+          ],
+          "worst_class": [
+            0.8641975308641975
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9328537170263789
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9512195121951219,
+            0.8690476190476191,
+            0.8641975308641975,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545893387025503,
+      "floor_sd": 0.03192531969785649
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8977272727272727,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9376498800959233,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.920863309352518
+          ],
+          "worst_class": [
+            0.8977272727272727
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9376498800959233
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.9390243902439024,
+            0.9642857142857143,
+            0.9012345679012346,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8546737733998913,
+      "floor_sd": 0.03172164962649202
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.894484412470024,
+        "marginal_std": 0.0,
+        "worst_class": 0.8170731707317073,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9160671462829736,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.894484412470024
+          ],
+          "worst_class": [
+            0.8170731707317073
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9160671462829736
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9634146341463414,
+            0.8170731707317073,
+            0.8928571428571429,
+            0.8641975308641975,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545436771166954,
+      "floor_sd": 0.031641069909020464
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.894484412470024,
+        "marginal_std": 0.0,
+        "worst_class": 0.8181818181818182,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9304556354916067,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.894484412470024
+          ],
+          "worst_class": [
+            0.8181818181818182
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9304556354916067
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.926829268292683,
+            0.8292682926829268,
+            0.9642857142857143,
+            0.9382716049382716,
+            0.8181818181818182
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8549693616625019,
+      "floor_sd": 0.031722139136140456
+    },
+    {
+      "method": "oracle",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9184652278177458,
+        "marginal_std": 0.0,
+        "worst_class": 0.8536585365853658,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9376498800959233,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9184652278177458
+          ],
+          "worst_class": [
+            0.8536585365853658
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9376498800959233
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8536585365853658,
+            0.926829268292683,
+            0.9285714285714286,
+            0.9012345679012346,
+            0.9772727272727273
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8490779702757345,
+      "floor_sd": 0.038175215249112604
+    },
+    {
+      "method": "oracle",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8848920863309353,
+        "marginal_std": 0.0,
+        "worst_class": 0.8414634146341463,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9064748201438849,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8848920863309353
+          ],
+          "worst_class": [
+            0.8414634146341463
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9064748201438849
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8414634146341463,
+            0.926829268292683,
+            0.8452380952380952,
+            0.8765432098765432,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8495557588564703,
+      "floor_sd": 0.03814331481680336
+    },
+    {
+      "method": "oracle",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.7857142857142857,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.920863309352518,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8920863309352518
+          ],
+          "worst_class": [
+            0.7857142857142857
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.920863309352518
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9634146341463414,
+            0.7857142857142857,
+            0.8888888888888888,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8486985886008751,
+      "floor_sd": 0.038289125443272856
+    },
+    {
+      "method": "oracle",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8992805755395683,
+        "marginal_std": 0.0,
+        "worst_class": 0.7976190476190477,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8992805755395683
+          ],
+          "worst_class": [
+            0.7976190476190477
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.975609756097561,
+            0.9146341463414634,
+            0.7976190476190477,
+            0.9135802469135802,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848503597751616,
+      "floor_sd": 0.03812607582677424
+    },
+    {
+      "method": "oracle",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9064748201438849,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8920863309352518
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9064748201438849
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.8902439024390244,
+            0.9285714285714286,
+            0.8024691358024691,
+            0.9204545454545454
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848834705357876,
+      "floor_sd": 0.03840745841251792
+    },
+    {
+      "method": "oracle",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9064748201438849,
+        "marginal_std": 0.0,
+        "worst_class": 0.8765432098765432,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.947242206235012,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9064748201438849
+          ],
+          "worst_class": [
+            0.8765432098765432
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.947242206235012
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.975609756097561,
+            0.8809523809523809,
+            0.8765432098765432,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8487789809388895,
+      "floor_sd": 0.03802764202125096
+    },
+    {
+      "method": "oracle",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9160671462829736,
+        "marginal_std": 0.0,
+        "worst_class": 0.8690476190476191,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9424460431654677,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9160671462829736
+          ],
+          "worst_class": [
+            0.8690476190476191
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9424460431654677
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9512195121951219,
+            0.8690476190476191,
+            0.9135802469135802,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848873797621003,
+      "floor_sd": 0.037972736753417835
+    },
+    {
+      "method": "oracle",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8872901678657075,
+        "marginal_std": 0.0,
+        "worst_class": 0.8395061728395061,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8968824940047961,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8872901678657075
+          ],
+          "worst_class": [
+            0.8395061728395061
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.8968824940047961
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.8658536585365854,
+            0.9642857142857143,
+            0.8395061728395061,
+            0.8636363636363636
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.849270245891943,
+      "floor_sd": 0.038164840820204306
+    },
+    {
+      "method": "oracle",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9088729016786571,
+        "marginal_std": 0.0,
+        "worst_class": 0.8271604938271605,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.935251798561151,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9088729016786571
+          ],
+          "worst_class": [
+            0.8271604938271605
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.935251798561151
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.975609756097561,
+            0.9024390243902439,
+            0.8809523809523809,
+            0.8271604938271605,
+            0.9545454545454546
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8488444223008248,
+      "floor_sd": 0.03843124431123258
+    },
+    {
+      "method": "oracle",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8513189448441247,
+        "marginal_std": 0.0,
+        "worst_class": 0.6829268292682927,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8752997601918465,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8513189448441247
+          ],
+          "worst_class": [
+            0.6829268292682927
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8752997601918465
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.6829268292682927,
+            0.9761904761904762,
+            0.8271604938271605,
+            0.8522727272727273
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8493022343058928,
+      "floor_sd": 0.03774241444323359
+    },
+    {
+      "method": "ppi",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9160671462829736,
+        "marginal_std": 0.0,
+        "worst_class": 0.8658536585365854,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9328537170263789,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9160671462829736
+          ],
+          "worst_class": [
+            0.8658536585365854
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9328537170263789
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8658536585365854,
+            0.9146341463414634,
+            0.9285714285714286,
+            0.9012345679012346,
+            0.9659090909090909
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8490779702757345,
+      "floor_sd": 0.038175215249112604
+    },
+    {
+      "method": "ppi",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.894484412470024,
+        "marginal_std": 0.0,
+        "worst_class": 0.8641975308641975,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9136690647482014,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.894484412470024
+          ],
+          "worst_class": [
+            0.8641975308641975
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9136690647482014
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.926829268292683,
+            0.8809523809523809,
+            0.8641975308641975,
+            0.9204545454545454
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8495557588564703,
+      "floor_sd": 0.03814331481680336
+    },
+    {
+      "method": "ppi",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8968824940047961,
+        "marginal_std": 0.0,
+        "worst_class": 0.8452380952380952,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8968824940047961
+          ],
+          "worst_class": [
+            0.8452380952380952
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9390243902439024,
+            0.9390243902439024,
+            0.8452380952380952,
+            0.8888888888888888,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8486985886008751,
+      "floor_sd": 0.038289125443272856
+    },
+    {
+      "method": "ppi",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9040767386091128,
+        "marginal_std": 0.0,
+        "worst_class": 0.8214285714285714,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9256594724220624,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9040767386091128
+          ],
+          "worst_class": [
+            0.8214285714285714
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9256594724220624
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9634146341463414,
+            0.9512195121951219,
+            0.8214285714285714,
+            0.8888888888888888,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848503597751616,
+      "floor_sd": 0.03812607582677424
+    },
+    {
+      "method": "ppi",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8992805755395683,
+        "marginal_std": 0.0,
+        "worst_class": 0.8148148148148148,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9136690647482014,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8992805755395683
+          ],
+          "worst_class": [
+            0.8148148148148148
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9136690647482014
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.8902439024390244,
+            0.9285714285714286,
+            0.8148148148148148,
+            0.9431818181818182
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848834705357876,
+      "floor_sd": 0.03840745841251792
+    },
+    {
+      "method": "ppi",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8872901678657075,
+        "marginal_std": 0.0,
+        "worst_class": 0.8452380952380952,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.8,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9280575539568345,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8872901678657075
+          ],
+          "worst_class": [
+            0.8452380952380952
+          ],
+          "frac_undercovered": [
+            0.8
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9280575539568345
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.975609756097561,
+            0.8452380952380952,
+            0.8518518518518519,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8487789809388895,
+      "floor_sd": 0.03802764202125096
+    },
+    {
+      "method": "ppi",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9040767386091128,
+        "marginal_std": 0.0,
+        "worst_class": 0.8571428571428571,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9304556354916067,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9040767386091128
+          ],
+          "worst_class": [
+            0.8571428571428571
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9304556354916067
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.926829268292683,
+            0.9512195121951219,
+            0.8571428571428571,
+            0.9135802469135802,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.848873797621003,
+      "floor_sd": 0.037972736753417835
+    },
+    {
+      "method": "ppi",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8872901678657075,
+        "marginal_std": 0.0,
+        "worst_class": 0.8395061728395061,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8992805755395683,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8872901678657075
+          ],
+          "worst_class": [
+            0.8395061728395061
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.8992805755395683
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.8780487804878049,
+            0.9404761904761905,
+            0.8395061728395061,
+            0.8636363636363636
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.849270245891943,
+      "floor_sd": 0.038164840820204306
+    },
+    {
+      "method": "ppi",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9016786570743405,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9328537170263789,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9016786570743405
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9328537170263789
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9634146341463414,
+            0.8658536585365854,
+            0.8690476190476191,
+            0.8518518518518519,
+            0.9545454545454546
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8488444223008248,
+      "floor_sd": 0.03843124431123258
+    },
+    {
+      "method": "ppi",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8800959232613909,
+        "marginal_std": 0.0,
+        "worst_class": 0.8068181818181818,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9088729016786571,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8800959232613909
+          ],
+          "worst_class": [
+            0.8068181818181818
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9088729016786571
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.8170731707317073,
+            0.9523809523809523,
+            0.9135802469135802,
+            0.8068181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            81,
+            82,
+            85,
+            81,
+            87
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8493022343058928,
+      "floor_sd": 0.03774241444323359
+    },
+    {
+      "method": "split",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9064748201438849,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9184652278177458,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9064748201438849
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9184652278177458
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.9146341463414634,
+            0.9523809523809523,
+            0.8518518518518519,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543793086449084,
+      "floor_sd": 0.031817977352104655
+    },
+    {
+      "method": "split",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.882494004796163,
+        "marginal_std": 0.0,
+        "worst_class": 0.7901234567901234,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8968824940047961,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.882494004796163
+          ],
+          "worst_class": [
+            0.7901234567901234
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8968824940047961
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.9390243902439024,
+            0.9047619047619048,
+            0.7901234567901234,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547703180664563,
+      "floor_sd": 0.0318674498314435
+    },
+    {
+      "method": "split",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9136690647482014,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9328537170263789,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9136690647482014
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9328537170263789
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9523809523809523,
+            0.8518518518518519,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8548029601815681,
+      "floor_sd": 0.03141511185932282
+    },
+    {
+      "method": "split",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8896882494004796,
+        "marginal_std": 0.0,
+        "worst_class": 0.8271604938271605,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9016786570743405,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8896882494004796
+          ],
+          "worst_class": [
+            0.8271604938271605
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9016786570743405
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9390243902439024,
+            0.8780487804878049,
+            0.9285714285714286,
+            0.8271604938271605,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.853984665078974,
+      "floor_sd": 0.03193968972466809
+    },
+    {
+      "method": "split",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9040767386091128,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8920863309352518
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9040767386091128
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.8902439024390244,
+            0.9523809523809523,
+            0.8024691358024691,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543236447175979,
+      "floor_sd": 0.03204933371947789
+    },
+    {
+      "method": "split",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8968824940047961,
+        "marginal_std": 0.0,
+        "worst_class": 0.8148148148148148,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8968824940047961
+          ],
+          "worst_class": [
+            0.8148148148148148
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.926829268292683,
+            0.9285714285714286,
+            0.8148148148148148,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547194150418236,
+      "floor_sd": 0.03219353918552665
+    },
+    {
+      "method": "split",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9040767386091128,
+        "marginal_std": 0.0,
+        "worst_class": 0.8148148148148148,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9280575539568345,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9040767386091128
+          ],
+          "worst_class": [
+            0.8148148148148148
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9280575539568345
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9285714285714286,
+            0.8148148148148148,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545893387025503,
+      "floor_sd": 0.03192531969785649
+    },
+    {
+      "method": "split",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9160671462829736,
+        "marginal_std": 0.0,
+        "worst_class": 0.8518518518518519,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9304556354916067,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9160671462829736
+          ],
+          "worst_class": [
+            0.8518518518518519
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9304556354916067
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.9390243902439024,
+            0.9761904761904762,
+            0.8518518518518519,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8546737733998913,
+      "floor_sd": 0.03172164962649202
+    },
+    {
+      "method": "split",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8800959232613909,
+        "marginal_std": 0.0,
+        "worst_class": 0.7654320987654321,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.894484412470024,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8800959232613909
+          ],
+          "worst_class": [
+            0.7654320987654321
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.894484412470024
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9634146341463414,
+            0.8414634146341463,
+            0.9166666666666666,
+            0.7654320987654321,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545436771166954,
+      "floor_sd": 0.031641069909020464
+    },
+    {
+      "method": "split",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8776978417266187,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9016786570743405,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8776978417266187
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9016786570743405
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.926829268292683,
+            0.8414634146341463,
+            0.9761904761904762,
+            0.8024691358024691,
+            0.8409090909090909
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8549693616625019,
+      "floor_sd": 0.031722139136140456
+    },
+    {
+      "method": "weighted",
+      "view_seed": 0,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9040767386091128,
+        "marginal_std": 0.0,
+        "worst_class": 0.8395061728395061,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9160671462829736,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9040767386091128
+          ],
+          "worst_class": [
+            0.8395061728395061
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9160671462829736
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8780487804878049,
+            0.9146341463414634,
+            0.9523809523809523,
+            0.8395061728395061,
+            0.9318181818181818
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543793086449084,
+      "floor_sd": 0.031817977352104655
+    },
+    {
+      "method": "weighted",
+      "view_seed": 1,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8585131894484412,
+        "marginal_std": 0.0,
+        "worst_class": 0.7530864197530864,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.8,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8729016786570744,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8585131894484412
+          ],
+          "worst_class": [
+            0.7530864197530864
+          ],
+          "frac_undercovered": [
+            0.8
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8729016786570744
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8658536585365854,
+            0.926829268292683,
+            0.8928571428571429,
+            0.7530864197530864,
+            0.8522727272727273
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547703180664563,
+      "floor_sd": 0.0318674498314435
+    },
+    {
+      "method": "weighted",
+      "view_seed": 2,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8641975308641975,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9424460431654677,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.920863309352518
+          ],
+          "worst_class": [
+            0.8641975308641975
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9424460431654677
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9642857142857143,
+            0.8641975308641975,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8548029601815681,
+      "floor_sd": 0.03141511185932282
+    },
+    {
+      "method": "weighted",
+      "view_seed": 3,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8896882494004796,
+        "marginal_std": 0.0,
+        "worst_class": 0.8271604938271605,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9016786570743405,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8896882494004796
+          ],
+          "worst_class": [
+            0.8271604938271605
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9016786570743405
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9390243902439024,
+            0.8780487804878049,
+            0.9285714285714286,
+            0.8271604938271605,
+            0.875
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.853984665078974,
+      "floor_sd": 0.03193968972466809
+    },
+    {
+      "method": "weighted",
+      "view_seed": 4,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8920863309352518,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9088729016786571,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8920863309352518
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9088729016786571
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.8902439024390244,
+            0.9523809523809523,
+            0.8024691358024691,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8543236447175979,
+      "floor_sd": 0.03204933371947789
+    },
+    {
+      "method": "weighted",
+      "view_seed": 5,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8968824940047961,
+        "marginal_std": 0.0,
+        "worst_class": 0.8148148148148148,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8968824940047961
+          ],
+          "worst_class": [
+            0.8148148148148148
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024390243902439,
+            0.926829268292683,
+            0.9285714285714286,
+            0.8148148148148148,
+            0.9090909090909091
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8547194150418236,
+      "floor_sd": 0.03219353918552665
+    },
+    {
+      "method": "weighted",
+      "view_seed": 6,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9016786570743405,
+        "marginal_std": 0.0,
+        "worst_class": 0.8024691358024691,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9256594724220624,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9016786570743405
+          ],
+          "worst_class": [
+            0.8024691358024691
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9256594724220624
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.9390243902439024,
+            0.9285714285714286,
+            0.8024691358024691,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545893387025503,
+      "floor_sd": 0.03192531969785649
+    },
+    {
+      "method": "weighted",
+      "view_seed": 7,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.9088729016786571,
+        "marginal_std": 0.0,
+        "worst_class": 0.8395061728395061,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9232613908872902,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9088729016786571
+          ],
+          "worst_class": [
+            0.8395061728395061
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9232613908872902
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9146341463414634,
+            0.926829268292683,
+            0.9642857142857143,
+            0.8395061728395061,
+            0.8977272727272727
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8546737733998913,
+      "floor_sd": 0.03172164962649202
+    },
+    {
+      "method": "weighted",
+      "view_seed": 8,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.86810551558753,
+        "marginal_std": 0.0,
+        "worst_class": 0.7407407407407407,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.882494004796163,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.86810551558753
+          ],
+          "worst_class": [
+            0.7407407407407407
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.882494004796163
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9512195121951219,
+            0.8414634146341463,
+            0.9166666666666666,
+            0.7407407407407407,
+            0.8863636363636364
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8545436771166954,
+      "floor_sd": 0.031641069909020464
+    },
+    {
+      "method": "weighted",
+      "view_seed": 9,
+      "row": {
+        "dataset": "ntu2nucla",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 5,
+        "marginal": 0.8729016786570744,
+        "marginal_std": 0.0,
+        "worst_class": 0.7901234567901234,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.8968824940047961,
+        "mean_set_size_std": 0.0,
+        "n_eval": 417.0,
+        "n_pool": 416.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8729016786570744
+          ],
+          "worst_class": [
+            0.7901234567901234
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.8968824940047961
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.926829268292683,
+            0.8292682926829268,
+            0.9761904761904762,
+            0.7901234567901234,
+            0.8409090909090909
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            82,
+            82,
+            84,
+            81,
+            88
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            163,
+            163,
+            168,
+            162,
+            174
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8549693616625019,
+      "floor_sd": 0.031722139136140456
+    }
+  ],
+  "summary": [
+    {
+      "method": "acp",
+      "n_seeds": 10,
+      "marginal_mean": 0.9997601918465229,
+      "marginal_std": 0.0007194244604316502,
+      "worst_class_mean": 0.9988095238095237,
+      "worst_class_std": 0.0035714285714285587,
+      "frac_undercovered_mean": 0.0,
+      "frac_undercovered_std": 0.0,
+      "frac_sig_undercovered_mean": 0.0,
+      "frac_sig_undercovered_std": 0.0,
+      "mean_set_size_mean": 4.4640287769784175,
+      "mean_set_size_std": 0.0791675690066682,
+      "floor_mean": 0.8545756462612968,
+      "floor_sd": 0.03182932800420531,
+      "excess": 0.14423387754822692,
+      "z": 4.531477307003486,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "clustered",
+      "n_seeds": 10,
+      "marginal_mean": 0.8959232613908872,
+      "marginal_std": 0.015511713792610285,
+      "worst_class_mean": 0.8160493827160493,
+      "worst_class_std": 0.03287290606344285,
+      "frac_undercovered_mean": 0.45999999999999996,
+      "frac_undercovered_std": 0.12806248474865695,
+      "frac_sig_undercovered_mean": 0.13999999999999999,
+      "frac_sig_undercovered_std": 0.09165151389911681,
+      "mean_set_size_mean": 0.913189448441247,
+      "mean_set_size_std": 0.016813955053197226,
+      "floor_mean": 0.8533000841335344,
+      "floor_sd": 0.032134320912640374,
+      "excess": -0.0372507014174851,
+      "z": -1.1592185663034236,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "mondrian",
+      "n_seeds": 10,
+      "marginal_mean": 0.8990407673860913,
+      "marginal_std": 0.01036736993823373,
+      "worst_class_mean": 0.8547295447701952,
+      "worst_class_std": 0.025685558898685734,
+      "frac_undercovered_mean": 0.5,
+      "frac_undercovered_std": 0.1341640786499874,
+      "frac_sig_undercovered_mean": 0.04,
+      "frac_sig_undercovered_std": 0.08,
+      "mean_set_size_mean": 0.9223021582733812,
+      "mean_set_size_std": 0.013531641227497263,
+      "floor_mean": 0.8545756462612968,
+      "floor_sd": 0.03182932800420531,
+      "excess": 0.00015389850889846457,
+      "z": 0.004835116496274487,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "oracle",
+      "n_seeds": 10,
+      "marginal_mean": 0.8956834532374099,
+      "marginal_std": 0.018490126164221788,
+      "worst_class_mean": 0.8176108745214437,
+      "worst_class_std": 0.05323895714877934,
+      "frac_undercovered_mean": 0.48,
+      "frac_undercovered_std": 0.13266499161421597,
+      "frac_sig_undercovered_mean": 0.08,
+      "frac_sig_undercovered_std": 0.09797958971132714,
+      "mean_set_size_mean": 0.9191846522781775,
+      "mean_set_size_std": 0.021663849699893212,
+      "floor_mean": 0.8489740301901125,
+      "floor_sd": 0.03814800680978202,
+      "excess": -0.031363155668668874,
+      "z": -0.8221440198712203,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "ppi",
+      "n_seeds": 10,
+      "marginal_mean": 0.8971223021582734,
+      "marginal_std": 0.009855502440304321,
+      "worst_class_mean": 0.8412089829772758,
+      "worst_class_std": 0.019516668320063022,
+      "frac_undercovered_mean": 0.52,
+      "frac_undercovered_std": 0.16,
+      "frac_sig_undercovered_mean": 0.02,
+      "frac_sig_undercovered_std": 0.060000000000000005,
+      "mean_set_size_mean": 0.9208633093525181,
+      "mean_set_size_std": 0.010831261190058724,
+      "floor_mean": 0.8489740301901125,
+      "floor_sd": 0.03814800680978202,
+      "excess": -0.007765047212836773,
+      "z": -0.20355053545931628,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "split",
+      "n_seeds": 10,
+      "marginal_mean": 0.8959232613908872,
+      "marginal_std": 0.013099760464026543,
+      "worst_class_mean": 0.8172839506172839,
+      "worst_class_std": 0.02749513265595074,
+      "frac_undercovered_mean": 0.44000000000000006,
+      "frac_undercovered_std": 0.11999999999999998,
+      "frac_sig_undercovered_mean": 0.12,
+      "frac_sig_undercovered_std": 0.09797958971132713,
+      "mean_set_size_mean": 0.913189448441247,
+      "mean_set_size_std": 0.014138516041231348,
+      "floor_mean": 0.8545756462612968,
+      "floor_sd": 0.03182932800420531,
+      "excess": -0.03729169564401291,
+      "z": -1.1716142935561165,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "weighted",
+      "n_seeds": 10,
+      "marginal_mean": 0.8913669064748202,
+      "marginal_std": 0.018546025228762888,
+      "worst_class_mean": 0.8074074074074075,
+      "worst_class_std": 0.036706342585971614,
+      "frac_undercovered_mean": 0.48,
+      "frac_undercovered_std": 0.16,
+      "frac_sig_undercovered_mean": 0.12,
+      "frac_sig_undercovered_std": 0.09797958971132713,
+      "mean_set_size_mean": 0.9093525179856116,
+      "mean_set_size_std": 0.020143884892086347,
+      "floor_mean": 0.8545756462612968,
+      "floor_sd": 0.03182932800420531,
+      "excess": -0.04716823885388932,
+      "z": -1.4819112375749004,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    }
+  ],
+  "floor": {
+    "acp": {
+      "mean": 0.8545756462612968,
+      "sd": 0.03182932800420531,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "clustered": {
+      "mean": 0.8533000841335344,
+      "sd": 0.032134320912640374,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "mondrian": {
+      "mean": 0.8545756462612968,
+      "sd": 0.03182932800420531,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "oracle": {
+      "mean": 0.8489740301901125,
+      "sd": 0.03814800680978202,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "ppi": {
+      "mean": 0.8489740301901125,
+      "sd": 0.03814800680978202,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "split": {
+      "mean": 0.8545756462612968,
+      "sd": 0.03182932800420531,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "weighted": {
+      "mean": 0.8545756462612968,
+      "sd": 0.03182932800420531,
+      "status": "ok",
+      "n_successful_seeds": 10
+    }
+  }
+}

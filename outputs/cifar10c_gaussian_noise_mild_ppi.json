@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_gaussian_noise_mild",
+  "method": "ppi",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.5469,
+  "marginal_std": 0.0,
+  "worst_class": 0.307,
+  "worst_class_std": 0.0,
+  "frac_undercovered": 1.0,
+  "frac_undercovered_std": 0.0,
+  "mean_set_size": 1.0155999999999998,
+  "mean_set_size_std": 2.220446049250313e-16
+}

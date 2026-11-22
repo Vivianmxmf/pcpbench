@@ -1,0 +1,5281 @@
+{
+  "old": "leaderboard_released.md",
+  "new": "leaderboard.md",
+  "columns_compared": [
+    "marginal",
+    "worst_class",
+    "frac_undercovered",
+    "mean_set_size",
+    "set/K"
+  ],
+  "columns_only_in_old": [],
+  "columns_only_in_new": [
+    "frac_sig_undercovered"
+  ],
+  "n_rows_old": 1050,
+  "n_rows_new": 1225,
+  "n_shared_rows": 1050,
+  "n_changed_rows": 163,
+  "n_changed_cells": 544,
+  "changed_cells_per_column": {
+    "marginal": 103,
+    "worst_class": 122,
+    "frac_undercovered": 107,
+    "mean_set_size": 162,
+    "set/K": 50
+  },
+  "rows_only_in_old": [],
+  "rows_only_in_new": [
+    {
+      "dataset": "cifar10c_vitL_brightness_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_brightness_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_brightness_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_brightness_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_brightness_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "ntu60_xsub",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_contrast_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_brightness_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_contrast_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitL14_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitL14_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitL14_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_fog_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_brightness_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_brightness_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_brightness_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_brightness_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_contrast_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_brightness_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitL14_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_contrast_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_mild",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_contrast_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_fog_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_fog_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_fog_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_fog_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_contrast_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_fog_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_contrast_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_contrast_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_fog_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_fog_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s1",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s2",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s3",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s4",
+      "method": "clustered"
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s5",
+      "method": "clustered"
+    },
+    {
+      "dataset": "ntu2nucla",
+      "method": "clustered"
+    }
+  ],
+  "n_regime_changes": 64,
+  "regime_transitions": {
+    "A_marginal_holds_perclass_collapses -> recovered": 64
+  },
+  "demotion_changes": [
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s3",
+      "method": "acp",
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s1",
+      "method": "acp",
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL",
+      "method": "acp",
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "ntu60_xsub",
+      "method": "acp",
+      "demoted_old": true,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s1",
+      "method": "acp",
+      "demoted_old": true,
+      "demoted_new": false
+    }
+  ],
+  "changed_rows": [
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.937",
+          "new": "0.932",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.558",
+          "new": "0.893",
+          "abs_diff": 0.33499999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.170",
+          "new": "0.120",
+          "abs_diff": 0.05000000000000002
+        },
+        "mean_set_size": {
+          "old": "8.510",
+          "new": "8.544",
+          "abs_diff": 0.034000000000000696
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "ntu60_xsub",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "1.383",
+          "new": "1.382",
+          "abs_diff": 0.001000000000000112
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.941",
+          "new": "0.947",
+          "abs_diff": 0.006000000000000005
+        },
+        "worst_class": {
+          "old": "0.496",
+          "new": "0.921",
+          "abs_diff": 0.42500000000000004
+        },
+        "frac_undercovered": {
+          "old": "0.110",
+          "new": "0.020",
+          "abs_diff": 0.09
+        },
+        "mean_set_size": {
+          "old": "8.965",
+          "new": "9.021",
+          "abs_diff": 0.05600000000000094
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.924",
+          "new": "0.930",
+          "abs_diff": 0.006000000000000005
+        },
+        "worst_class": {
+          "old": "0.493",
+          "new": "0.896",
+          "abs_diff": 0.403
+        },
+        "frac_undercovered": {
+          "old": "0.190",
+          "new": "0.110",
+          "abs_diff": 0.08
+        },
+        "mean_set_size": {
+          "old": "8.493",
+          "new": "8.583",
+          "abs_diff": 0.08999999999999986
+        },
+        "set/K": {
+          "old": "0.85",
+          "new": "0.86",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_gaussian_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.944",
+          "new": "0.957",
+          "abs_diff": 0.013000000000000012
+        },
+        "worst_class": {
+          "old": "0.482",
+          "new": "0.928",
+          "abs_diff": 0.44600000000000006
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.000",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.620",
+          "new": "8.753",
+          "abs_diff": 0.1330000000000009
+        },
+        "set/K": {
+          "old": "0.86",
+          "new": "0.88",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.939",
+          "new": "0.943",
+          "abs_diff": 0.0040000000000000036
+        },
+        "worst_class": {
+          "old": "0.472",
+          "new": "0.908",
+          "abs_diff": 0.43600000000000005
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.010",
+          "abs_diff": 0.09000000000000001
+        },
+        "mean_set_size": {
+          "old": "8.480",
+          "new": "8.582",
+          "abs_diff": 0.10200000000000031
+        },
+        "set/K": {
+          "old": "0.85",
+          "new": "0.86",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.884",
+          "new": "0.908",
+          "abs_diff": 0.02400000000000002
+        },
+        "worst_class": {
+          "old": "0.426",
+          "new": "0.870",
+          "abs_diff": 0.444
+        },
+        "frac_undercovered": {
+          "old": "0.200",
+          "new": "0.380",
+          "abs_diff": 0.18
+        },
+        "mean_set_size": {
+          "old": "8.670",
+          "new": "8.881",
+          "abs_diff": 0.2110000000000003
+        },
+        "set/K": {
+          "old": "0.87",
+          "new": "0.89",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.913",
+          "new": "0.922",
+          "abs_diff": 0.009000000000000008
+        },
+        "worst_class": {
+          "old": "0.419",
+          "new": "0.889",
+          "abs_diff": 0.47000000000000003
+        },
+        "frac_undercovered": {
+          "old": "0.170",
+          "new": "0.150",
+          "abs_diff": 0.020000000000000018
+        },
+        "mean_set_size": {
+          "old": "8.542",
+          "new": "8.631",
+          "abs_diff": 0.08900000000000041
+        },
+        "set/K": {
+          "old": "0.85",
+          "new": "0.86",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.881",
+          "new": "0.915",
+          "abs_diff": 0.03400000000000003
+        },
+        "worst_class": {
+          "old": "0.376",
+          "new": "0.858",
+          "abs_diff": 0.482
+        },
+        "frac_undercovered": {
+          "old": "0.200",
+          "new": "0.320",
+          "abs_diff": 0.12
+        },
+        "mean_set_size": {
+          "old": "8.060",
+          "new": "8.198",
+          "abs_diff": 0.1379999999999999
+        },
+        "set/K": {
+          "old": "0.81",
+          "new": "0.82",
+          "abs_diff": 0.009999999999999898
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_vitL_defocus_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.928",
+          "new": "0.950",
+          "abs_diff": 0.02199999999999991
+        },
+        "worst_class": {
+          "old": "0.363",
+          "new": "0.914",
+          "abs_diff": 0.551
+        },
+        "frac_undercovered": {
+          "old": "0.110",
+          "new": "0.010",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.638",
+          "new": "8.667",
+          "abs_diff": 0.028999999999999915
+        },
+        "set/K": {
+          "old": "0.86",
+          "new": "0.87",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "36.303",
+          "new": "36.304",
+          "abs_diff": 0.0010000000000047748
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.948",
+          "new": "0.953",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.256",
+          "new": "0.830",
+          "abs_diff": 0.574
+        },
+        "frac_undercovered": {
+          "old": "0.138",
+          "new": "0.068",
+          "abs_diff": 0.07
+        },
+        "mean_set_size": {
+          "old": "76.148",
+          "new": "75.915",
+          "abs_diff": 0.23299999999998988
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": false,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s2",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "8.294",
+          "new": "8.322",
+          "abs_diff": 0.027999999999998693
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s1",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.823",
+          "new": "0.824",
+          "abs_diff": 0.0010000000000000009
+        },
+        "frac_undercovered": {
+          "old": "0.621",
+          "new": "0.614",
+          "abs_diff": 0.007000000000000006
+        },
+        "mean_set_size": {
+          "old": "6.556",
+          "new": "6.630",
+          "abs_diff": 0.07399999999999984
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "12.880",
+          "new": "12.881",
+          "abs_diff": 0.0009999999999994458
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "6.324",
+          "new": "6.325",
+          "abs_diff": 0.001000000000000334
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "11.361",
+          "new": "11.362",
+          "abs_diff": 0.0009999999999994458
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_fog_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "6.048",
+          "new": "6.050",
+          "abs_diff": 0.0019999999999997797
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s2",
+      "method": "weighted",
+      "cells": {
+        "frac_undercovered": {
+          "old": "0.779",
+          "new": "0.780",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "17.495",
+          "new": "17.487",
+          "abs_diff": 0.008000000000002672
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s2",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.726",
+          "new": "0.776",
+          "abs_diff": 0.050000000000000044
+        },
+        "worst_class": {
+          "old": "0.154",
+          "new": "0.204",
+          "abs_diff": 0.04999999999999999
+        },
+        "frac_undercovered": {
+          "old": "0.754",
+          "new": "0.659",
+          "abs_diff": 0.09499999999999997
+        },
+        "mean_set_size": {
+          "old": "18.639",
+          "new": "23.585",
+          "abs_diff": 4.9460000000000015
+        },
+        "set/K": {
+          "old": "0.19",
+          "new": "0.24",
+          "abs_diff": 0.04999999999999999
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.784",
+          "new": "0.783",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.128",
+          "new": "0.126",
+          "abs_diff": 0.0020000000000000018
+        },
+        "frac_undercovered": {
+          "old": "0.559",
+          "new": "0.560",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "46.947",
+          "new": "46.777",
+          "abs_diff": 0.1700000000000017
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_contrast_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "53.074",
+          "new": "53.078",
+          "abs_diff": 0.0040000000000048885
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_fog_s2",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "6.839",
+          "new": "6.844",
+          "abs_diff": 0.004999999999999893
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s4",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "10.736",
+          "new": "10.739",
+          "abs_diff": 0.0030000000000001137
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_contrast_s2",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "3.654",
+          "new": "3.659",
+          "abs_diff": 0.004999999999999893
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s2",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "39.371",
+          "new": "39.372",
+          "abs_diff": 0.0009999999999976694
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.499",
+          "new": "0.501",
+          "abs_diff": 0.0020000000000000018
+        },
+        "frac_undercovered": {
+          "old": "0.934",
+          "new": "0.933",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "10.130",
+          "new": "10.263",
+          "abs_diff": 0.13299999999999912
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_fog_s4",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "21.754",
+          "new": "21.756",
+          "abs_diff": 0.0019999999999988916
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s4",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.516",
+          "new": "0.506",
+          "abs_diff": 0.010000000000000009
+        },
+        "worst_class": {
+          "old": "0.078",
+          "new": "0.066",
+          "abs_diff": 0.011999999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.875",
+          "new": "0.883",
+          "abs_diff": 0.008000000000000007
+        },
+        "mean_set_size": {
+          "old": "17.223",
+          "new": "16.440",
+          "abs_diff": 0.7829999999999977
+        },
+        "set/K": {
+          "old": "0.17",
+          "new": "0.16",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_fog_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.479",
+          "new": "0.505",
+          "abs_diff": 0.026000000000000023
+        },
+        "worst_class": {
+          "old": "0.072",
+          "new": "0.088",
+          "abs_diff": 0.016
+        },
+        "frac_undercovered": {
+          "old": "0.923",
+          "new": "0.902",
+          "abs_diff": 0.02100000000000002
+        },
+        "mean_set_size": {
+          "old": "12.859",
+          "new": "14.553",
+          "abs_diff": 1.6940000000000008
+        },
+        "set/K": {
+          "old": "0.13",
+          "new": "0.15",
+          "abs_diff": 0.01999999999999999
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_brightness_s2",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "2.135",
+          "new": "2.136",
+          "abs_diff": 0.001000000000000334
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.586",
+          "new": "0.589",
+          "abs_diff": 0.0030000000000000027
+        },
+        "frac_undercovered": {
+          "old": "0.859",
+          "new": "0.856",
+          "abs_diff": 0.0030000000000000027
+        },
+        "mean_set_size": {
+          "old": "15.209",
+          "new": "15.398",
+          "abs_diff": 0.18900000000000006
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_brightness_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "2.181",
+          "new": "2.182",
+          "abs_diff": 0.0009999999999998899
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_brightness_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "2.082",
+          "new": "2.083",
+          "abs_diff": 0.001000000000000334
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_fog_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "31.782",
+          "new": "31.792",
+          "abs_diff": 0.010000000000001563
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_mild",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.811",
+          "new": "0.810",
+          "abs_diff": 0.0010000000000000009
+        },
+        "frac_undercovered": {
+          "old": "0.611",
+          "new": "0.613",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "3.209",
+          "new": "3.201",
+          "abs_diff": 0.008000000000000007
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s4",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "22.654",
+          "new": "22.657",
+          "abs_diff": 0.0030000000000001137
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s5",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.510",
+          "new": "0.513",
+          "abs_diff": 0.0030000000000000027
+        },
+        "frac_undercovered": {
+          "old": "0.844",
+          "new": "0.842",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "26.678",
+          "new": "26.949",
+          "abs_diff": 0.2710000000000008
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s2",
+      "method": "weighted",
+      "cells": {
+        "frac_undercovered": {
+          "old": "0.373",
+          "new": "0.371",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "3.077",
+          "new": "3.090",
+          "abs_diff": 0.0129999999999999
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "79.507",
+          "new": "79.500",
+          "abs_diff": 0.007000000000005002
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "4.026",
+          "new": "4.024",
+          "abs_diff": 0.0019999999999997797
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s1",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.777",
+          "new": "0.778",
+          "abs_diff": 0.0010000000000000009
+        },
+        "frac_undercovered": {
+          "old": "0.668",
+          "new": "0.667",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "3.381",
+          "new": "3.408",
+          "abs_diff": 0.027000000000000135
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_contrast_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.969",
+          "new": "0.980",
+          "abs_diff": 0.01100000000000001
+        },
+        "worst_class": {
+          "old": "0.016",
+          "new": "0.072",
+          "abs_diff": 0.055999999999999994
+        },
+        "frac_undercovered": {
+          "old": "0.078",
+          "new": "0.042",
+          "abs_diff": 0.036
+        },
+        "mean_set_size": {
+          "old": "15.758",
+          "new": "25.103",
+          "abs_diff": 9.345000000000002
+        },
+        "set/K": {
+          "old": "0.02",
+          "new": "0.03",
+          "abs_diff": 0.009999999999999998
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_defocus_blur_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.941",
+          "new": "0.936",
+          "abs_diff": 0.004999999999999893
+        },
+        "worst_class": {
+          "old": "0.016",
+          "new": "0.512",
+          "abs_diff": 0.496
+        },
+        "frac_undercovered": {
+          "old": "0.176",
+          "new": "0.232",
+          "abs_diff": 0.05600000000000002
+        },
+        "mean_set_size": {
+          "old": "734.166",
+          "new": "736.494",
+          "abs_diff": 2.3279999999999745
+        },
+        "set/K": {
+          "old": "0.73",
+          "new": "0.74",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "2.257",
+          "new": "2.256",
+          "abs_diff": 0.001000000000000334
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.012",
+          "new": "0.576",
+          "abs_diff": 0.564
+        },
+        "frac_undercovered": {
+          "old": "0.171",
+          "new": "0.209",
+          "abs_diff": 0.03799999999999998
+        },
+        "mean_set_size": {
+          "old": "745.498",
+          "new": "748.797",
+          "abs_diff": 3.298999999999978
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s5",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "19.509",
+          "new": "19.510",
+          "abs_diff": 0.0010000000000012221
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "6.471",
+          "new": "6.472",
+          "abs_diff": 0.001000000000000334
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s5",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.441",
+          "new": "0.442",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "20.811",
+          "new": "20.818",
+          "abs_diff": 0.0070000000000014495
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s1",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "6.497",
+          "new": "6.496",
+          "abs_diff": 0.0009999999999994458
+        }
+      },
+      "regime_old": "B_marginal_breaks",
+      "regime_new": "B_marginal_breaks",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "1.679",
+          "new": "1.678",
+          "abs_diff": 0.001000000000000112
+        }
+      },
+      "regime_old": "other",
+      "regime_new": "other",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.932",
+          "new": "0.934",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.636",
+          "abs_diff": 0.636
+        },
+        "frac_undercovered": {
+          "old": "0.177",
+          "new": "0.241",
+          "abs_diff": 0.064
+        },
+        "mean_set_size": {
+          "old": "810.699",
+          "new": "816.073",
+          "abs_diff": 5.374000000000024
+        },
+        "set/K": {
+          "old": "0.81",
+          "new": "0.82",
+          "abs_diff": 0.009999999999999898
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_contrast_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.922",
+          "new": "0.918",
+          "abs_diff": 0.0040000000000000036
+        },
+        "frac_undercovered": {
+          "old": "0.260",
+          "new": "0.275",
+          "abs_diff": 0.015000000000000013
+        },
+        "mean_set_size": {
+          "old": "14.082",
+          "new": "13.165",
+          "abs_diff": 0.9170000000000016
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_defocus_blur_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.616",
+          "abs_diff": 0.616
+        },
+        "frac_undercovered": {
+          "old": "0.171",
+          "new": "0.232",
+          "abs_diff": 0.061
+        },
+        "mean_set_size": {
+          "old": "813.255",
+          "new": "818.114",
+          "abs_diff": 4.859000000000037
+        },
+        "set/K": {
+          "old": "0.81",
+          "new": "0.82",
+          "abs_diff": 0.009999999999999898
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_defocus_blur_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "15.975",
+          "new": "15.978",
+          "abs_diff": 0.0030000000000001137
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_fog_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.931",
+          "new": "0.934",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.636",
+          "abs_diff": 0.636
+        },
+        "frac_undercovered": {
+          "old": "0.172",
+          "new": "0.240",
+          "abs_diff": 0.068
+        },
+        "mean_set_size": {
+          "old": "821.585",
+          "new": "827.253",
+          "abs_diff": 5.668000000000006
+        },
+        "set/K": {
+          "old": "0.82",
+          "new": "0.83",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_fog_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "13.324",
+          "new": "13.307",
+          "abs_diff": 0.01699999999999946
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.925",
+          "new": "0.923",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.496",
+          "abs_diff": 0.496
+        },
+        "frac_undercovered": {
+          "old": "0.217",
+          "new": "0.304",
+          "abs_diff": 0.087
+        },
+        "mean_set_size": {
+          "old": "744.015",
+          "new": "754.306",
+          "abs_diff": 10.291000000000054
+        },
+        "set/K": {
+          "old": "0.74",
+          "new": "0.75",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s1",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.887",
+          "new": "0.885",
+          "abs_diff": 0.0020000000000000018
+        },
+        "frac_undercovered": {
+          "old": "0.380",
+          "new": "0.392",
+          "abs_diff": 0.01200000000000001
+        },
+        "mean_set_size": {
+          "old": "5.854",
+          "new": "5.655",
+          "abs_diff": 0.19899999999999984
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.917",
+          "new": "0.919",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.560",
+          "abs_diff": 0.56
+        },
+        "frac_undercovered": {
+          "old": "0.214",
+          "new": "0.327",
+          "abs_diff": 0.11300000000000002
+        },
+        "mean_set_size": {
+          "old": "775.448",
+          "new": "783.392",
+          "abs_diff": 7.944000000000074
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.894",
+          "new": "0.897",
+          "abs_diff": 0.0030000000000000027
+        },
+        "frac_undercovered": {
+          "old": "0.365",
+          "new": "0.356",
+          "abs_diff": 0.009000000000000008
+        },
+        "mean_set_size": {
+          "old": "14.622",
+          "new": "15.184",
+          "abs_diff": 0.5619999999999994
+        },
+        "set/K": {
+          "old": "0.01",
+          "new": "0.02",
+          "abs_diff": 0.01
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_fog_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.592",
+          "abs_diff": 0.592
+        },
+        "frac_undercovered": {
+          "old": "0.157",
+          "new": "0.181",
+          "abs_diff": 0.023999999999999994
+        },
+        "mean_set_size": {
+          "old": "767.873",
+          "new": "772.468",
+          "abs_diff": 4.594999999999914
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_gaussian_noise_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.943",
+          "new": "0.945",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.568",
+          "abs_diff": 0.568
+        },
+        "frac_undercovered": {
+          "old": "0.165",
+          "new": "0.185",
+          "abs_diff": 0.01999999999999999
+        },
+        "mean_set_size": {
+          "old": "770.262",
+          "new": "774.517",
+          "abs_diff": 4.255000000000109
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "imagenet1k_vitL14_gaussian_noise_s3",
+      "method": "weighted",
+      "cells": {
+        "marginal": {
+          "old": "0.913",
+          "new": "0.902",
+          "abs_diff": 0.01100000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.297",
+          "new": "0.347",
+          "abs_diff": 0.04999999999999999
+        },
+        "mean_set_size": {
+          "old": "7.444",
+          "new": "6.165",
+          "abs_diff": 1.279
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": false,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.998",
+          "new": "1.000",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "9.945",
+          "new": "9.948",
+          "abs_diff": 0.0030000000000001137
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "ntu2nucla",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "1.000",
+          "new": "0.998",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.998",
+          "new": "0.995",
+          "abs_diff": 0.0030000000000000027
+        },
+        "mean_set_size": {
+          "old": "4.933",
+          "new": "4.915",
+          "abs_diff": 0.017999999999999794
+        },
+        "set/K": {
+          "old": "0.99",
+          "new": "0.98",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_shot_noise_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.997",
+          "new": "1.000",
+          "abs_diff": 0.0030000000000000027
+        },
+        "mean_set_size": {
+          "old": "9.982",
+          "new": "9.987",
+          "abs_diff": 0.005000000000000782
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.996",
+          "new": "0.998",
+          "abs_diff": 0.0020000000000000018
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s1",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.996",
+          "new": "0.997",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "8.931",
+          "new": "8.956",
+          "abs_diff": 0.025000000000000355
+        },
+        "set/K": {
+          "old": "0.89",
+          "new": "0.90",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.995",
+          "new": "0.997",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "9.152",
+          "new": "9.174",
+          "abs_diff": 0.02200000000000024
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_fog_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.994",
+          "new": "0.992",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "99.976",
+          "new": "99.972",
+          "abs_diff": 0.0040000000000048885
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_contrast_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.992",
+          "new": "0.990",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "99.806",
+          "new": "99.801",
+          "abs_diff": 0.0049999999999954525
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.999",
+          "new": "1.000",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.990",
+          "new": "0.998",
+          "abs_diff": 0.008000000000000007
+        },
+        "mean_set_size": {
+          "old": "9.793",
+          "new": "9.806",
+          "abs_diff": 0.0129999999999999
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.998",
+          "new": "0.997",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.989",
+          "new": "0.990",
+          "abs_diff": 0.0010000000000000009
+        },
+        "mean_set_size": {
+          "old": "7.709",
+          "new": "7.758",
+          "abs_diff": 0.04900000000000038
+        },
+        "set/K": {
+          "old": "0.77",
+          "new": "0.78",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s1",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.987",
+          "new": "0.989",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "7.547",
+          "new": "7.593",
+          "abs_diff": 0.04600000000000026
+        },
+        "set/K": {
+          "old": "0.75",
+          "new": "0.76",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.998",
+          "new": "0.999",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.986",
+          "new": "0.994",
+          "abs_diff": 0.008000000000000007
+        },
+        "mean_set_size": {
+          "old": "9.224",
+          "new": "9.249",
+          "abs_diff": 0.025000000000000355
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.986",
+          "new": "0.991",
+          "abs_diff": 0.0050000000000000044
+        },
+        "mean_set_size": {
+          "old": "8.253",
+          "new": "8.298",
+          "abs_diff": 0.04499999999999993
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_contrast_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.997",
+          "new": "0.998",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.982",
+          "new": "0.992",
+          "abs_diff": 0.010000000000000009
+        },
+        "mean_set_size": {
+          "old": "8.710",
+          "new": "8.792",
+          "abs_diff": 0.08199999999999896
+        },
+        "set/K": {
+          "old": "0.87",
+          "new": "0.88",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s4",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.982",
+          "new": "0.992",
+          "abs_diff": 0.010000000000000009
+        },
+        "mean_set_size": {
+          "old": "8.706",
+          "new": "8.758",
+          "abs_diff": 0.0519999999999996
+        },
+        "set/K": {
+          "old": "0.87",
+          "new": "0.88",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.980",
+          "new": "0.982",
+          "abs_diff": 0.0020000000000000018
+        },
+        "mean_set_size": {
+          "old": "99.427",
+          "new": "99.417",
+          "abs_diff": 0.010000000000005116
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s5",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.997",
+          "new": "1.000",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.980",
+          "new": "0.999",
+          "abs_diff": 0.019000000000000017
+        },
+        "frac_undercovered": {
+          "old": "0.010",
+          "new": "0.000",
+          "abs_diff": 0.01
+        },
+        "mean_set_size": {
+          "old": "9.922",
+          "new": "9.974",
+          "abs_diff": 0.0519999999999996
+        },
+        "set/K": {
+          "old": "0.99",
+          "new": "1.00",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_contrast_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.998",
+          "new": "0.999",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.979",
+          "new": "0.996",
+          "abs_diff": 0.017000000000000015
+        },
+        "mean_set_size": {
+          "old": "9.794",
+          "new": "9.830",
+          "abs_diff": 0.03599999999999959
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.968",
+          "new": "0.982",
+          "abs_diff": 0.014000000000000012
+        },
+        "mean_set_size": {
+          "old": "99.683",
+          "new": "99.679",
+          "abs_diff": 0.0040000000000048885
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.999",
+          "new": "1.000",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.968",
+          "new": "0.978",
+          "abs_diff": 0.010000000000000009
+        },
+        "mean_set_size": {
+          "old": "99.816",
+          "new": "99.813",
+          "abs_diff": 0.0030000000000001137
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_brightness_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.994",
+          "new": "0.993",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.967",
+          "new": "0.984",
+          "abs_diff": 0.017000000000000015
+        },
+        "mean_set_size": {
+          "old": "7.198",
+          "new": "7.313",
+          "abs_diff": 0.11499999999999932
+        },
+        "set/K": {
+          "old": "0.72",
+          "new": "0.73",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_contrast_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.995",
+          "new": "0.996",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.965",
+          "new": "0.986",
+          "abs_diff": 0.02100000000000002
+        },
+        "mean_set_size": {
+          "old": "8.610",
+          "new": "8.689",
+          "abs_diff": 0.07900000000000063
+        },
+        "set/K": {
+          "old": "0.86",
+          "new": "0.87",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.996",
+          "new": "0.998",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.960",
+          "new": "0.991",
+          "abs_diff": 0.031000000000000028
+        },
+        "mean_set_size": {
+          "old": "9.643",
+          "new": "9.658",
+          "abs_diff": 0.014999999999998792
+        },
+        "set/K": {
+          "old": "0.96",
+          "new": "0.97",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_brightness_s5",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.995",
+          "new": "0.996",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.960",
+          "new": "0.988",
+          "abs_diff": 0.028000000000000025
+        },
+        "mean_set_size": {
+          "old": "8.926",
+          "new": "8.983",
+          "abs_diff": 0.057000000000000384
+        },
+        "set/K": {
+          "old": "0.89",
+          "new": "0.90",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_brightness_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.993",
+          "new": "0.991",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.958",
+          "new": "0.980",
+          "abs_diff": 0.02200000000000002
+        },
+        "mean_set_size": {
+          "old": "7.034",
+          "new": "7.156",
+          "abs_diff": 0.12199999999999989
+        },
+        "set/K": {
+          "old": "0.70",
+          "new": "0.72",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.994",
+          "new": "0.996",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.954",
+          "new": "0.990",
+          "abs_diff": 0.03600000000000003
+        },
+        "mean_set_size": {
+          "old": "9.144",
+          "new": "9.173",
+          "abs_diff": 0.028999999999999915
+        },
+        "set/K": {
+          "old": "0.91",
+          "new": "0.92",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.993",
+          "new": "0.995",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.947",
+          "new": "0.984",
+          "abs_diff": 0.03700000000000003
+        },
+        "mean_set_size": {
+          "old": "8.700",
+          "new": "8.759",
+          "abs_diff": 0.05900000000000105
+        },
+        "set/K": {
+          "old": "0.87",
+          "new": "0.88",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s4",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.940",
+          "new": "0.984",
+          "abs_diff": 0.04400000000000004
+        },
+        "frac_undercovered": {
+          "old": "0.001",
+          "new": "0.000",
+          "abs_diff": 0.001
+        },
+        "mean_set_size": {
+          "old": "99.671",
+          "new": "99.666",
+          "abs_diff": 0.005000000000009663
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_brightness_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.988",
+          "new": "0.986",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.936",
+          "new": "0.971",
+          "abs_diff": 0.03499999999999992
+        },
+        "mean_set_size": {
+          "old": "7.145",
+          "new": "7.288",
+          "abs_diff": 0.14300000000000068
+        },
+        "set/K": {
+          "old": "0.71",
+          "new": "0.73",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.999",
+          "new": "1.000",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.922",
+          "new": "0.984",
+          "abs_diff": 0.061999999999999944
+        },
+        "frac_undercovered": {
+          "old": "0.003",
+          "new": "0.000",
+          "abs_diff": 0.003
+        },
+        "mean_set_size": {
+          "old": "99.735",
+          "new": "99.734",
+          "abs_diff": 0.0010000000000047748
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "imagenet1k_vitL14_defocus_blur_s3",
+      "method": "weighted",
+      "cells": {
+        "mean_set_size": {
+          "old": "993.915",
+          "new": "993.917",
+          "abs_diff": 0.002000000000066393
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.920",
+          "new": "0.976",
+          "abs_diff": 0.05599999999999994
+        },
+        "frac_undercovered": {
+          "old": "0.002",
+          "new": "0.000",
+          "abs_diff": 0.002
+        },
+        "mean_set_size": {
+          "old": "99.281",
+          "new": "99.269",
+          "abs_diff": 0.012000000000000455
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.918",
+          "new": "0.978",
+          "abs_diff": 0.05999999999999994
+        },
+        "frac_undercovered": {
+          "old": "0.002",
+          "new": "0.000",
+          "abs_diff": 0.002
+        },
+        "mean_set_size": {
+          "old": "99.705",
+          "new": "99.696",
+          "abs_diff": 0.009000000000000341
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_brightness_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.981",
+          "new": "0.978",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.906",
+          "new": "0.956",
+          "abs_diff": 0.04999999999999993
+        },
+        "frac_undercovered": {
+          "old": "0.030",
+          "new": "0.000",
+          "abs_diff": 0.03
+        },
+        "mean_set_size": {
+          "old": "7.118",
+          "new": "7.296",
+          "abs_diff": 0.17799999999999994
+        },
+        "set/K": {
+          "old": "0.71",
+          "new": "0.73",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.900",
+          "new": "0.977",
+          "abs_diff": 0.07699999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.020",
+          "new": "0.080",
+          "abs_diff": 0.06
+        },
+        "mean_set_size": {
+          "old": "9.799",
+          "new": "9.800",
+          "abs_diff": 0.0010000000000012221
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_gaussian_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.986",
+          "new": "0.990",
+          "abs_diff": 0.0040000000000000036
+        },
+        "worst_class": {
+          "old": "0.900",
+          "new": "0.976",
+          "abs_diff": 0.07599999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.050",
+          "new": "0.000",
+          "abs_diff": 0.05
+        },
+        "mean_set_size": {
+          "old": "8.577",
+          "new": "8.618",
+          "abs_diff": 0.04100000000000037
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_fog_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.989",
+          "new": "0.998",
+          "abs_diff": 0.009000000000000008
+        },
+        "worst_class": {
+          "old": "0.897",
+          "new": "0.992",
+          "abs_diff": 0.09499999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.060",
+          "new": "0.000",
+          "abs_diff": 0.06
+        },
+        "mean_set_size": {
+          "old": "9.681",
+          "new": "9.818",
+          "abs_diff": 0.13700000000000045
+        },
+        "set/K": {
+          "old": "0.97",
+          "new": "0.98",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_shot_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.997",
+          "new": "0.996",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.872",
+          "new": "0.956",
+          "abs_diff": 0.08399999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.004",
+          "new": "0.000",
+          "abs_diff": 0.004
+        },
+        "mean_set_size": {
+          "old": "98.764",
+          "new": "98.762",
+          "abs_diff": 0.001999999999995339
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_shot_noise_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.986",
+          "new": "0.996",
+          "abs_diff": 0.010000000000000009
+        },
+        "worst_class": {
+          "old": "0.864",
+          "new": "0.983",
+          "abs_diff": 0.119
+        },
+        "frac_undercovered": {
+          "old": "0.060",
+          "new": "0.000",
+          "abs_diff": 0.06
+        },
+        "mean_set_size": {
+          "old": "9.700",
+          "new": "9.721",
+          "abs_diff": 0.021000000000000796
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.864",
+          "new": "0.978",
+          "abs_diff": 0.11399999999999999
+        },
+        "frac_undercovered": {
+          "old": "0.003",
+          "new": "0.000",
+          "abs_diff": 0.003
+        },
+        "mean_set_size": {
+          "old": "99.799",
+          "new": "99.789",
+          "abs_diff": 0.010000000000005116
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_brightness_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.853",
+          "new": "0.940",
+          "abs_diff": 0.08699999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.170",
+          "new": "0.000",
+          "abs_diff": 0.17
+        },
+        "mean_set_size": {
+          "old": "7.559",
+          "new": "7.820",
+          "abs_diff": 0.2610000000000001
+        },
+        "set/K": {
+          "old": "0.76",
+          "new": "0.78",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_fog_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.976",
+          "new": "0.985",
+          "abs_diff": 0.009000000000000008
+        },
+        "worst_class": {
+          "old": "0.844",
+          "new": "0.978",
+          "abs_diff": 0.134
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.000",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.967",
+          "new": "9.007",
+          "abs_diff": 0.03999999999999915
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_contrast_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.978",
+          "new": "0.977",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.841",
+          "new": "0.934",
+          "abs_diff": 0.09300000000000008
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.000",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.398",
+          "new": "8.453",
+          "abs_diff": 0.054999999999999716
+        },
+        "set/K": {
+          "old": "0.84",
+          "new": "0.85",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "ntu60_xsub",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.962",
+          "new": "0.950",
+          "abs_diff": 0.01200000000000001
+        },
+        "worst_class": {
+          "old": "0.801",
+          "new": "0.872",
+          "abs_diff": 0.07099999999999995
+        },
+        "frac_undercovered": {
+          "old": "0.165",
+          "new": "0.078",
+          "abs_diff": 0.08700000000000001
+        },
+        "mean_set_size": {
+          "old": "37.541",
+          "new": "39.357",
+          "abs_diff": 1.8160000000000025
+        },
+        "set/K": {
+          "old": "0.63",
+          "new": "0.66",
+          "abs_diff": 0.030000000000000027
+        }
+      },
+      "regime_old": "recovered",
+      "regime_new": "recovered",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar10c_fog_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.974",
+          "new": "0.973",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.771",
+          "new": "0.955",
+          "abs_diff": 0.18399999999999994
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.000",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.635",
+          "new": "8.786",
+          "abs_diff": 0.1509999999999998
+        },
+        "set/K": {
+          "old": "0.86",
+          "new": "0.88",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_vitL_jpeg_compression_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.967",
+          "new": "0.964",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.746",
+          "new": "0.945",
+          "abs_diff": 0.19899999999999995
+        },
+        "frac_undercovered": {
+          "old": "0.100",
+          "new": "0.000",
+          "abs_diff": 0.1
+        },
+        "mean_set_size": {
+          "old": "8.825",
+          "new": "8.862",
+          "abs_diff": 0.03700000000000081
+        },
+        "set/K": {
+          "old": "0.88",
+          "new": "0.89",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.953",
+          "new": "0.961",
+          "abs_diff": 0.008000000000000007
+        },
+        "worst_class": {
+          "old": "0.733",
+          "new": "0.923",
+          "abs_diff": 0.19000000000000006
+        },
+        "frac_undercovered": {
+          "old": "0.200",
+          "new": "0.000",
+          "abs_diff": 0.2
+        },
+        "mean_set_size": {
+          "old": "7.934",
+          "new": "8.015",
+          "abs_diff": 0.0810000000000004
+        },
+        "set/K": {
+          "old": "0.79",
+          "new": "0.80",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s5",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.726",
+          "new": "0.964",
+          "abs_diff": 0.238
+        },
+        "frac_undercovered": {
+          "old": "0.004",
+          "new": "0.001",
+          "abs_diff": 0.003
+        },
+        "mean_set_size": {
+          "old": "99.659",
+          "new": "99.625",
+          "abs_diff": 0.034000000000006025
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.996",
+          "new": "0.995",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.726",
+          "new": "0.946",
+          "abs_diff": 0.21999999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.010",
+          "new": "0.000",
+          "abs_diff": 0.01
+        },
+        "mean_set_size": {
+          "old": "97.486",
+          "new": "97.431",
+          "abs_diff": 0.05500000000000682
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_gaussian_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.995",
+          "new": "0.992",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.718",
+          "new": "0.948",
+          "abs_diff": 0.22999999999999998
+        },
+        "frac_undercovered": {
+          "old": "0.014",
+          "new": "0.000",
+          "abs_diff": 0.014
+        },
+        "mean_set_size": {
+          "old": "98.066",
+          "new": "98.055",
+          "abs_diff": 0.01099999999999568
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.982",
+          "new": "0.983",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.710",
+          "new": "0.902",
+          "abs_diff": 0.19200000000000006
+        },
+        "frac_undercovered": {
+          "old": "0.054",
+          "new": "0.002",
+          "abs_diff": 0.052
+        },
+        "mean_set_size": {
+          "old": "83.126",
+          "new": "82.940",
+          "abs_diff": 0.18600000000000705
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.995",
+          "new": "0.992",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.692",
+          "new": "0.942",
+          "abs_diff": 0.25
+        },
+        "frac_undercovered": {
+          "old": "0.016",
+          "new": "0.000",
+          "abs_diff": 0.016
+        },
+        "mean_set_size": {
+          "old": "97.921",
+          "new": "97.929",
+          "abs_diff": 0.007999999999995566
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_contrast_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.994",
+          "new": "0.992",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.688",
+          "new": "0.946",
+          "abs_diff": 0.258
+        },
+        "frac_undercovered": {
+          "old": "0.016",
+          "new": "0.000",
+          "abs_diff": 0.016
+        },
+        "mean_set_size": {
+          "old": "97.222",
+          "new": "97.213",
+          "abs_diff": 0.009000000000000341
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.678",
+          "new": "0.890",
+          "abs_diff": 0.21199999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.059",
+          "new": "0.005",
+          "abs_diff": 0.054
+        },
+        "mean_set_size": {
+          "old": "85.581",
+          "new": "85.389",
+          "abs_diff": 0.19200000000000728
+        },
+        "set/K": {
+          "old": "0.86",
+          "new": "0.85",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_fog_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.996",
+          "new": "0.995",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.674",
+          "new": "0.962",
+          "abs_diff": 0.2879999999999999
+        },
+        "frac_undercovered": {
+          "old": "0.004",
+          "new": "0.000",
+          "abs_diff": 0.004
+        },
+        "mean_set_size": {
+          "old": "99.283",
+          "new": "99.268",
+          "abs_diff": 0.015000000000000568
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_jpeg_compression_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.951",
+          "new": "0.946",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.660",
+          "new": "0.924",
+          "abs_diff": 0.264
+        },
+        "frac_undercovered": {
+          "old": "0.170",
+          "new": "0.000",
+          "abs_diff": 0.17
+        },
+        "mean_set_size": {
+          "old": "8.556",
+          "new": "8.619",
+          "abs_diff": 0.06300000000000061
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": false
+    },
+    {
+      "dataset": "cifar100c_contrast_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.979",
+          "new": "0.978",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.656",
+          "new": "0.898",
+          "abs_diff": 0.242
+        },
+        "frac_undercovered": {
+          "old": "0.061",
+          "new": "0.004",
+          "abs_diff": 0.056999999999999995
+        },
+        "mean_set_size": {
+          "old": "88.072",
+          "new": "87.981",
+          "abs_diff": 0.09100000000000819
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_fog_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.991",
+          "new": "0.989",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.650",
+          "new": "0.924",
+          "abs_diff": 0.274
+        },
+        "frac_undercovered": {
+          "old": "0.021",
+          "new": "0.001",
+          "abs_diff": 0.02
+        },
+        "mean_set_size": {
+          "old": "94.657",
+          "new": "94.562",
+          "abs_diff": 0.09499999999999886
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.987",
+          "new": "0.984",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.646",
+          "new": "0.910",
+          "abs_diff": 0.264
+        },
+        "frac_undercovered": {
+          "old": "0.036",
+          "new": "0.001",
+          "abs_diff": 0.034999999999999996
+        },
+        "mean_set_size": {
+          "old": "92.680",
+          "new": "92.591",
+          "abs_diff": 0.08900000000001285
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.973",
+          "new": "0.975",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.628",
+          "new": "0.876",
+          "abs_diff": 0.248
+        },
+        "frac_undercovered": {
+          "old": "0.064",
+          "new": "0.011",
+          "abs_diff": 0.053000000000000005
+        },
+        "mean_set_size": {
+          "old": "71.277",
+          "new": "71.244",
+          "abs_diff": 0.03300000000000125
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_gaussian_blur_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.953",
+          "new": "0.981",
+          "abs_diff": 0.028000000000000025
+        },
+        "worst_class": {
+          "old": "0.599",
+          "new": "0.965",
+          "abs_diff": 0.366
+        },
+        "frac_undercovered": {
+          "old": "0.110",
+          "new": "0.020",
+          "abs_diff": 0.09
+        },
+        "mean_set_size": {
+          "old": "9.455",
+          "new": "9.684",
+          "abs_diff": 0.2289999999999992
+        },
+        "set/K": {
+          "old": "0.95",
+          "new": "0.97",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.592",
+          "new": "0.914",
+          "abs_diff": 0.32200000000000006
+        },
+        "frac_undercovered": {
+          "old": "0.041",
+          "new": "0.002",
+          "abs_diff": 0.039
+        },
+        "mean_set_size": {
+          "old": "91.040",
+          "new": "90.912",
+          "abs_diff": 0.1280000000000001
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_contrast_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.973",
+          "new": "0.974",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.582",
+          "new": "0.884",
+          "abs_diff": 0.30200000000000005
+        },
+        "frac_undercovered": {
+          "old": "0.083",
+          "new": "0.005",
+          "abs_diff": 0.078
+        },
+        "mean_set_size": {
+          "old": "83.797",
+          "new": "83.712",
+          "abs_diff": 0.08499999999999375
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_brightness_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.961",
+          "new": "0.963",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.564",
+          "new": "0.862",
+          "abs_diff": 0.29800000000000004
+        },
+        "frac_undercovered": {
+          "old": "0.119",
+          "new": "0.018",
+          "abs_diff": 0.10099999999999999
+        },
+        "mean_set_size": {
+          "old": "71.273",
+          "new": "71.306",
+          "abs_diff": 0.03300000000000125
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.971",
+          "new": "0.975",
+          "abs_diff": 0.0040000000000000036
+        },
+        "worst_class": {
+          "old": "0.564",
+          "new": "0.886",
+          "abs_diff": 0.32200000000000006
+        },
+        "frac_undercovered": {
+          "old": "0.074",
+          "new": "0.009",
+          "abs_diff": 0.065
+        },
+        "mean_set_size": {
+          "old": "74.239",
+          "new": "74.116",
+          "abs_diff": 0.12300000000000466
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_brightness_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.958",
+          "new": "0.961",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.536",
+          "new": "0.862",
+          "abs_diff": 0.32599999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.132",
+          "new": "0.022",
+          "abs_diff": 0.11000000000000001
+        },
+        "mean_set_size": {
+          "old": "71.585",
+          "new": "71.636",
+          "abs_diff": 0.05100000000000193
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_fog_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.994",
+          "new": "0.993",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.526",
+          "new": "0.950",
+          "abs_diff": 0.42399999999999993
+        },
+        "frac_undercovered": {
+          "old": "0.011",
+          "new": "0.000",
+          "abs_diff": 0.011
+        },
+        "mean_set_size": {
+          "old": "98.813",
+          "new": "98.796",
+          "abs_diff": 0.016999999999995907
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.994",
+          "new": "0.995",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.524",
+          "new": "0.948",
+          "abs_diff": 0.42399999999999993
+        },
+        "frac_undercovered": {
+          "old": "0.008",
+          "new": "0.000",
+          "abs_diff": 0.008
+        },
+        "mean_set_size": {
+          "old": "98.504",
+          "new": "98.456",
+          "abs_diff": 0.04800000000000182
+        },
+        "set/K": {
+          "old": "0.99",
+          "new": "0.98",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s5",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.974",
+          "new": "0.977",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.512",
+          "new": "0.896",
+          "abs_diff": 0.384
+        },
+        "frac_undercovered": {
+          "old": "0.070",
+          "new": "0.007",
+          "abs_diff": 0.063
+        },
+        "mean_set_size": {
+          "old": "89.507",
+          "new": "89.352",
+          "abs_diff": 0.15500000000000114
+        },
+        "set/K": {
+          "old": "0.90",
+          "new": "0.89",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_fog_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.991",
+          "new": "0.988",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.498",
+          "new": "0.930",
+          "abs_diff": 0.43200000000000005
+        },
+        "frac_undercovered": {
+          "old": "0.019",
+          "new": "0.001",
+          "abs_diff": 0.018
+        },
+        "mean_set_size": {
+          "old": "97.250",
+          "new": "97.235",
+          "abs_diff": 0.015000000000000568
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_brightness_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.957",
+          "new": "0.959",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.496",
+          "new": "0.858",
+          "abs_diff": 0.362
+        },
+        "frac_undercovered": {
+          "old": "0.135",
+          "new": "0.029",
+          "abs_diff": 0.10600000000000001
+        },
+        "mean_set_size": {
+          "old": "72.989",
+          "new": "73.102",
+          "abs_diff": 0.11299999999999955
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.490",
+          "new": "0.948",
+          "abs_diff": 0.45799999999999996
+        },
+        "frac_undercovered": {
+          "old": "0.007",
+          "new": "0.000",
+          "abs_diff": 0.007
+        },
+        "mean_set_size": {
+          "old": "99.188",
+          "new": "99.137",
+          "abs_diff": 0.05100000000000193
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.966",
+          "new": "0.971",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.484",
+          "new": "0.874",
+          "abs_diff": 0.39
+        },
+        "frac_undercovered": {
+          "old": "0.095",
+          "new": "0.011",
+          "abs_diff": 0.084
+        },
+        "mean_set_size": {
+          "old": "78.254",
+          "new": "78.163",
+          "abs_diff": 0.09100000000000819
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_mild",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.965",
+          "new": "0.970",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.460",
+          "new": "0.878",
+          "abs_diff": 0.418
+        },
+        "frac_undercovered": {
+          "old": "0.090",
+          "new": "0.008",
+          "abs_diff": 0.08199999999999999
+        },
+        "mean_set_size": {
+          "old": "84.662",
+          "new": "84.652",
+          "abs_diff": 0.010000000000005116
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_fog_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.984",
+          "new": "0.979",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.448",
+          "new": "0.904",
+          "abs_diff": 0.456
+        },
+        "frac_undercovered": {
+          "old": "0.030",
+          "new": "0.001",
+          "abs_diff": 0.028999999999999998
+        },
+        "mean_set_size": {
+          "old": "94.171",
+          "new": "94.146",
+          "abs_diff": 0.025000000000005684
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.983",
+          "new": "0.982",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.446",
+          "new": "0.914",
+          "abs_diff": 0.468
+        },
+        "frac_undercovered": {
+          "old": "0.045",
+          "new": "0.000",
+          "abs_diff": 0.045
+        },
+        "mean_set_size": {
+          "old": "93.569",
+          "new": "93.480",
+          "abs_diff": 0.08899999999999864
+        },
+        "set/K": {
+          "old": "0.94",
+          "new": "0.93",
+          "abs_diff": 0.009999999999999898
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_brightness_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.955",
+          "new": "0.957",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.442",
+          "new": "0.846",
+          "abs_diff": 0.40399999999999997
+        },
+        "frac_undercovered": {
+          "old": "0.145",
+          "new": "0.033",
+          "abs_diff": 0.11199999999999999
+        },
+        "mean_set_size": {
+          "old": "74.546",
+          "new": "74.644",
+          "abs_diff": 0.09799999999999898
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_brightness_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.966",
+          "new": "0.972",
+          "abs_diff": 0.006000000000000005
+        },
+        "worst_class": {
+          "old": "0.440",
+          "new": "0.892",
+          "abs_diff": 0.452
+        },
+        "frac_undercovered": {
+          "old": "0.085",
+          "new": "0.002",
+          "abs_diff": 0.083
+        },
+        "mean_set_size": {
+          "old": "83.774",
+          "new": "83.645",
+          "abs_diff": 0.1290000000000049
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar10c_defocus_blur_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.923",
+          "new": "0.949",
+          "abs_diff": 0.025999999999999912
+        },
+        "worst_class": {
+          "old": "0.421",
+          "new": "0.918",
+          "abs_diff": 0.49700000000000005
+        },
+        "frac_undercovered": {
+          "old": "0.160",
+          "new": "0.080",
+          "abs_diff": 0.08
+        },
+        "mean_set_size": {
+          "old": "9.028",
+          "new": "9.233",
+          "abs_diff": 0.20500000000000007
+        },
+        "set/K": {
+          "old": "0.90",
+          "new": "0.92",
+          "abs_diff": 0.020000000000000018
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s4",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.396",
+          "new": "0.948",
+          "abs_diff": 0.5519999999999999
+        },
+        "frac_undercovered": {
+          "old": "0.013",
+          "new": "0.000",
+          "abs_diff": 0.013
+        },
+        "mean_set_size": {
+          "old": "98.898",
+          "new": "98.789",
+          "abs_diff": 0.10899999999999466
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.992",
+          "new": "0.991",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.392",
+          "new": "0.942",
+          "abs_diff": 0.5499999999999999
+        },
+        "frac_undercovered": {
+          "old": "0.009",
+          "new": "0.001",
+          "abs_diff": 0.008
+        },
+        "mean_set_size": {
+          "old": "98.578",
+          "new": "98.556",
+          "abs_diff": 0.02200000000000557
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_defocus_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.987",
+          "new": "0.985",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.382",
+          "new": "0.920",
+          "abs_diff": 0.538
+        },
+        "frac_undercovered": {
+          "old": "0.023",
+          "new": "0.000",
+          "abs_diff": 0.023
+        },
+        "mean_set_size": {
+          "old": "97.535",
+          "new": "97.502",
+          "abs_diff": 0.03300000000000125
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_noise_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.992",
+          "new": "0.991",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.374",
+          "new": "0.944",
+          "abs_diff": 0.57
+        },
+        "frac_undercovered": {
+          "old": "0.011",
+          "new": "0.000",
+          "abs_diff": 0.011
+        },
+        "mean_set_size": {
+          "old": "97.539",
+          "new": "97.485",
+          "abs_diff": 0.054000000000002046
+        },
+        "set/K": {
+          "old": "0.98",
+          "new": "0.97",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_shot_noise_s1",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.374",
+          "new": "0.898",
+          "abs_diff": 0.524
+        },
+        "frac_undercovered": {
+          "old": "0.053",
+          "new": "0.004",
+          "abs_diff": 0.049
+        },
+        "mean_set_size": {
+          "old": "92.898",
+          "new": "92.763",
+          "abs_diff": 0.1349999999999909
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_brightness_s5",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.951",
+          "new": "0.957",
+          "abs_diff": 0.006000000000000005
+        },
+        "worst_class": {
+          "old": "0.330",
+          "new": "0.862",
+          "abs_diff": 0.532
+        },
+        "frac_undercovered": {
+          "old": "0.151",
+          "new": "0.036",
+          "abs_diff": 0.11499999999999999
+        },
+        "mean_set_size": {
+          "old": "78.427",
+          "new": "78.529",
+          "abs_diff": 0.10199999999998965
+        },
+        "set/K": {
+          "old": "0.78",
+          "new": "0.79",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_contrast_s4",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.310",
+          "new": "0.930",
+          "abs_diff": 0.6200000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.014",
+          "new": "0.000",
+          "abs_diff": 0.014
+        },
+        "mean_set_size": {
+          "old": "95.306",
+          "new": "95.250",
+          "abs_diff": 0.055999999999997385
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.991",
+          "new": "0.989",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.296",
+          "new": "0.934",
+          "abs_diff": 0.6380000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.012",
+          "new": "0.001",
+          "abs_diff": 0.011
+        },
+        "mean_set_size": {
+          "old": "98.529",
+          "new": "98.494",
+          "abs_diff": 0.03499999999999659
+        },
+        "set/K": {
+          "old": "0.99",
+          "new": "0.98",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_defocus_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.978",
+          "new": "0.975",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.286",
+          "new": "0.898",
+          "abs_diff": 0.6120000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.046",
+          "new": "0.004",
+          "abs_diff": 0.041999999999999996
+        },
+        "mean_set_size": {
+          "old": "95.474",
+          "new": "95.444",
+          "abs_diff": 0.030000000000001137
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.980",
+          "new": "0.976",
+          "abs_diff": 0.0040000000000000036
+        },
+        "worst_class": {
+          "old": "0.282",
+          "new": "0.910",
+          "abs_diff": 0.6280000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.033",
+          "new": "0.001",
+          "abs_diff": 0.032
+        },
+        "mean_set_size": {
+          "old": "96.285",
+          "new": "96.218",
+          "abs_diff": 0.06699999999999307
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s2",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.989",
+          "new": "0.986",
+          "abs_diff": 0.0030000000000000027
+        },
+        "worst_class": {
+          "old": "0.280",
+          "new": "0.926",
+          "abs_diff": 0.646
+        },
+        "frac_undercovered": {
+          "old": "0.018",
+          "new": "0.000",
+          "abs_diff": 0.018
+        },
+        "mean_set_size": {
+          "old": "98.239",
+          "new": "98.178",
+          "abs_diff": 0.06100000000000705
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.982",
+          "new": "0.981",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.258",
+          "new": "0.910",
+          "abs_diff": 0.652
+        },
+        "frac_undercovered": {
+          "old": "0.037",
+          "new": "0.000",
+          "abs_diff": 0.037
+        },
+        "mean_set_size": {
+          "old": "95.504",
+          "new": "95.446",
+          "abs_diff": 0.058000000000006935
+        },
+        "set/K": {
+          "old": "0.96",
+          "new": "0.95",
+          "abs_diff": 0.010000000000000009
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s4",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.990",
+          "new": "0.989",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.252",
+          "new": "0.940",
+          "abs_diff": 0.688
+        },
+        "frac_undercovered": {
+          "old": "0.015",
+          "new": "0.000",
+          "abs_diff": 0.015
+        },
+        "mean_set_size": {
+          "old": "98.678",
+          "new": "98.658",
+          "abs_diff": 0.01999999999999602
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.973",
+          "new": "0.972",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.238",
+          "new": "0.898",
+          "abs_diff": 0.66
+        },
+        "frac_undercovered": {
+          "old": "0.054",
+          "new": "0.003",
+          "abs_diff": 0.051
+        },
+        "mean_set_size": {
+          "old": "94.903",
+          "new": "94.845",
+          "abs_diff": 0.058000000000006935
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_gaussian_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.963",
+          "new": "0.968",
+          "abs_diff": 0.0050000000000000044
+        },
+        "worst_class": {
+          "old": "0.206",
+          "new": "0.884",
+          "abs_diff": 0.678
+        },
+        "frac_undercovered": {
+          "old": "0.079",
+          "new": "0.009",
+          "abs_diff": 0.07
+        },
+        "mean_set_size": {
+          "old": "90.777",
+          "new": "90.776",
+          "abs_diff": 0.0010000000000047748
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s2",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.184",
+          "new": "0.910",
+          "abs_diff": 0.726
+        },
+        "frac_undercovered": {
+          "old": "0.035",
+          "new": "0.001",
+          "abs_diff": 0.034
+        },
+        "mean_set_size": {
+          "old": "96.182",
+          "new": "96.095",
+          "abs_diff": 0.0870000000000033
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_gaussian_blur_s1",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.958",
+          "new": "0.962",
+          "abs_diff": 0.0040000000000000036
+        },
+        "worst_class": {
+          "old": "0.166",
+          "new": "0.854",
+          "abs_diff": 0.688
+        },
+        "frac_undercovered": {
+          "old": "0.105",
+          "new": "0.027",
+          "abs_diff": 0.078
+        },
+        "mean_set_size": {
+          "old": "84.796",
+          "new": "84.687",
+          "abs_diff": 0.10900000000000887
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_vitL_jpeg_compression_s3",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.981",
+          "new": "0.982",
+          "abs_diff": 0.0010000000000000009
+        },
+        "worst_class": {
+          "old": "0.118",
+          "new": "0.918",
+          "abs_diff": 0.8
+        },
+        "frac_undercovered": {
+          "old": "0.027",
+          "new": "0.001",
+          "abs_diff": 0.026
+        },
+        "mean_set_size": {
+          "old": "96.925",
+          "new": "96.868",
+          "abs_diff": 0.05700000000000216
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "cifar100c_jpeg_compression_s3",
+      "method": "acp",
+      "cells": {
+        "worst_class": {
+          "old": "0.078",
+          "new": "0.894",
+          "abs_diff": 0.8160000000000001
+        },
+        "frac_undercovered": {
+          "old": "0.049",
+          "new": "0.007",
+          "abs_diff": 0.042
+        },
+        "mean_set_size": {
+          "old": "95.794",
+          "new": "95.749",
+          "abs_diff": 0.045000000000001705
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "recovered",
+      "regime_changed": true,
+      "demoted_old": true,
+      "demoted_new": true
+    },
+    {
+      "dataset": "imagenet1k_vitB32_gaussian_noise_s5",
+      "method": "acp",
+      "cells": {
+        "marginal": {
+          "old": "0.948",
+          "new": "0.950",
+          "abs_diff": 0.0020000000000000018
+        },
+        "worst_class": {
+          "old": "0.000",
+          "new": "0.732",
+          "abs_diff": 0.732
+        },
+        "frac_undercovered": {
+          "old": "0.096",
+          "new": "0.133",
+          "abs_diff": 0.037000000000000005
+        },
+        "mean_set_size": {
+          "old": "909.388",
+          "new": "910.927",
+          "abs_diff": 1.5389999999999873
+        }
+      },
+      "regime_old": "A_marginal_holds_perclass_collapses",
+      "regime_new": "A_marginal_holds_perclass_collapses",
+      "regime_changed": false,
+      "demoted_old": true,
+      "demoted_new": true
+    }
+  ]
+}

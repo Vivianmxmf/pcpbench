@@ -1,0 +1,713 @@
+{
+  "leaderboard_path": "leaderboard.md",
+  "outputs_dir": null,
+  "precision": "displayed",
+  "n_headline_rows": 492,
+  "default_counts": {
+    "non_demoted": 405,
+    "recovered": 93,
+    "regime_a": 104,
+    "regime_b": 194,
+    "other": 14,
+    "demoted": 87,
+    "demoted_recovered": 87,
+    "demoted_regime_a": 0
+  },
+  "expected_default_counts": {
+    "non_demoted": 404,
+    "recovered": 86,
+    "regime_a": 110,
+    "regime_b": 194,
+    "other": 14,
+    "demoted": 88,
+    "demoted_recovered": 60,
+    "demoted_regime_a": 28
+  },
+  "regime_grid": [
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 111,
+        "regime_b": 185,
+        "other": 9,
+        "demoted": 87
+      },
+      "rows_relabelled": 29
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 111,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 111,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 98,
+        "regime_b": 185,
+        "other": 22,
+        "demoted": 87
+      },
+      "rows_relabelled": 16
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 98,
+        "regime_b": 194,
+        "other": 13,
+        "demoted": 87
+      },
+      "rows_relabelled": 7
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 98,
+        "regime_b": 207,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 41,
+        "regime_b": 185,
+        "other": 79,
+        "demoted": 87
+      },
+      "rows_relabelled": 73
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 41,
+        "regime_b": 194,
+        "other": 70,
+        "demoted": 87
+      },
+      "rows_relabelled": 64
+    },
+    {
+      "recovered": 0.75,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 100,
+        "regime_a": 41,
+        "regime_b": 207,
+        "other": 57,
+        "demoted": 87
+      },
+      "rows_relabelled": 77
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 118,
+        "regime_b": 185,
+        "other": 9,
+        "demoted": 87
+      },
+      "rows_relabelled": 23
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 118,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 14
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 118,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 14
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 185,
+        "other": 23,
+        "demoted": 87
+      },
+      "rows_relabelled": 9
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 0
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 208,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 14
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 41,
+        "regime_b": 185,
+        "other": 86,
+        "demoted": 87
+      },
+      "rows_relabelled": 72
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 41,
+        "regime_b": 194,
+        "other": 77,
+        "demoted": 87
+      },
+      "rows_relabelled": 63
+    },
+    {
+      "recovered": 0.8,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 41,
+        "regime_b": 208,
+        "other": 63,
+        "demoted": 87
+      },
+      "rows_relabelled": 77
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 123,
+        "regime_b": 185,
+        "other": 9,
+        "demoted": 87
+      },
+      "rows_relabelled": 29
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 123,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.8,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 123,
+        "regime_b": 194,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 109,
+        "regime_b": 185,
+        "other": 23,
+        "demoted": 87
+      },
+      "rows_relabelled": 15
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 109,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 6
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.85,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 109,
+        "regime_b": 208,
+        "other": 0,
+        "demoted": 87
+      },
+      "rows_relabelled": 20
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.75,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 43,
+        "regime_b": 185,
+        "other": 89,
+        "demoted": 87
+      },
+      "rows_relabelled": 78
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.8,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 43,
+        "regime_b": 194,
+        "other": 80,
+        "demoted": 87
+      },
+      "rows_relabelled": 69
+    },
+    {
+      "recovered": 0.85,
+      "regime_a_marginal": 0.9,
+      "regime_b_marginal": 0.85,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 43,
+        "regime_b": 208,
+        "other": 66,
+        "demoted": 87
+      },
+      "rows_relabelled": 83
+    }
+  ],
+  "guard_grid": [
+    {
+      "vacuous_set_frac": 0.85,
+      "vacuous_overcover_frac": 0.5,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 397,
+        "recovered": 85,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 95
+      },
+      "rows_relabelled": 8,
+      "demoted_min": 92,
+      "demoted_max": 95,
+      "demoted_ambiguous_rows": 5,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.85,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 397,
+        "recovered": 85,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 95
+      },
+      "rows_relabelled": 8,
+      "demoted_min": 92,
+      "demoted_max": 95,
+      "demoted_ambiguous_rows": 5,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.85,
+      "vacuous_overcover_frac": 0.7,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 398,
+        "recovered": 86,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 94
+      },
+      "rows_relabelled": 7,
+      "demoted_min": 92,
+      "demoted_max": 94,
+      "demoted_ambiguous_rows": 7,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.85,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.9,
+      "counts": {
+        "non_demoted": 369,
+        "recovered": 71,
+        "regime_a": 90,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 123
+      },
+      "rows_relabelled": 36,
+      "demoted_min": 113,
+      "demoted_max": 123,
+      "demoted_ambiguous_rows": 25,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.9,
+      "vacuous_overcover_frac": 0.5,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 404,
+        "recovered": 92,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 88
+      },
+      "rows_relabelled": 1,
+      "demoted_min": 87,
+      "demoted_max": 88,
+      "demoted_ambiguous_rows": 3,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.9,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 0,
+      "demoted_min": 87,
+      "demoted_max": 87,
+      "demoted_ambiguous_rows": 3,
+      "divider_settled": true,
+      "displayed_only_demotions": [
+        "ntu60_xsub/acp"
+      ]
+    },
+    {
+      "vacuous_set_frac": 0.9,
+      "vacuous_overcover_frac": 0.7,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 0,
+      "demoted_min": 87,
+      "demoted_max": 87,
+      "demoted_ambiguous_rows": 5,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.9,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.9,
+      "counts": {
+        "non_demoted": 371,
+        "recovered": 73,
+        "regime_a": 90,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 121
+      },
+      "rows_relabelled": 34,
+      "demoted_min": 113,
+      "demoted_max": 121,
+      "demoted_ambiguous_rows": 23,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.95,
+      "vacuous_overcover_frac": 0.5,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 2,
+      "demoted_min": 86,
+      "demoted_max": 87,
+      "demoted_ambiguous_rows": 4,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.95,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 405,
+        "recovered": 93,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 87
+      },
+      "rows_relabelled": 2,
+      "demoted_min": 86,
+      "demoted_max": 87,
+      "demoted_ambiguous_rows": 4,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.95,
+      "vacuous_overcover_frac": 0.7,
+      "overcover_marginal": 0.95,
+      "counts": {
+        "non_demoted": 406,
+        "recovered": 94,
+        "regime_a": 104,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 86
+      },
+      "rows_relabelled": 1,
+      "demoted_min": 86,
+      "demoted_max": 86,
+      "demoted_ambiguous_rows": 6,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    },
+    {
+      "vacuous_set_frac": 0.95,
+      "vacuous_overcover_frac": 0.6,
+      "overcover_marginal": 0.9,
+      "counts": {
+        "non_demoted": 371,
+        "recovered": 73,
+        "regime_a": 90,
+        "regime_b": 194,
+        "other": 14,
+        "demoted": 121
+      },
+      "rows_relabelled": 34,
+      "demoted_min": 113,
+      "demoted_max": 121,
+      "demoted_ambiguous_rows": 24,
+      "divider_settled": false,
+      "displayed_only_demotions": []
+    }
+  ],
+  "summary": {
+    "regime_grid": {
+      "non_demoted": {
+        "min": 405,
+        "max": 405
+      },
+      "recovered": {
+        "min": 88,
+        "max": 100
+      },
+      "regime_a": {
+        "min": 41,
+        "max": 123
+      },
+      "regime_b": {
+        "min": 185,
+        "max": 208
+      },
+      "other": {
+        "min": 0,
+        "max": 89
+      },
+      "demoted": {
+        "min": 87,
+        "max": 87
+      }
+    },
+    "guard_grid": {
+      "non_demoted": {
+        "min": 369,
+        "max": 406
+      },
+      "recovered": {
+        "min": 71,
+        "max": 94
+      },
+      "regime_a": {
+        "min": 90,
+        "max": 104
+      },
+      "regime_b": {
+        "min": 194,
+        "max": 194
+      },
+      "other": {
+        "min": 14,
+        "max": 14
+      },
+      "demoted": {
+        "min": 86,
+        "max": 123
+      }
+    },
+    "guard_grid_demoted_bound": {
+      "min": 86,
+      "max": 123
+    },
+    "regime_b_dominance": {
+      "always_largest": true,
+      "closest_margin": 62,
+      "closest_combo": {
+        "recovered": 0.85,
+        "regime_a_marginal": 0.8,
+        "regime_b_marginal": 0.75
+      },
+      "closest_counts": {
+        "non_demoted": 405,
+        "recovered": 88,
+        "regime_a": 123,
+        "regime_b": 185,
+        "other": 9,
+        "demoted": 87
+      }
+    }
+  }
+}

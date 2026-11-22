@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use pcpbench, please cite the paper below."
+title: "pcpbench"
+type: software
+version: 1.0.0
+doi: 10.5281/zenodo.24203939
+license: MIT
+repository-code: "https://github.com/Vivianmxmf/pcpbench"
+authors:
+  - family-names: Han
+    given-names: Weijia
+    affiliation: University of Washington
+  - family-names: Qu
+    given-names: Lisha
+    affiliation: University of Washington
+keywords:
+  - conformal prediction
+  - distribution shift
+  - benchmark
+  - per-class coverage
+preferred-citation:
+  type: conference-paper
+  title: "pcpbench: A Benchmark for Per-Class Conformal Coverage under Distribution Shift"
+  authors:
+    - family-names: Han
+      given-names: Weijia
+    - family-names: Qu
+      given-names: Lisha
+  collection-title: "Proceedings of the 33rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1 (KDD '27)"
+  year: 2027
+  doi: 10.1145/3862868.3871551
+  publisher:
+    name: ACM

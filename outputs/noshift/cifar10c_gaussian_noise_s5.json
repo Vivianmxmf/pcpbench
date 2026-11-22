@@ -1,0 +1,7264 @@
+{
+  "cache": "caches/cifar10c_gaussian_noise_s5.npz",
+  "alpha": 0.1,
+  "seeds": 10,
+  "eval_frac": 0.5,
+  "per_seed": [
+    {
+      "method": "acp",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99416,
+        "marginal_std": 0.0,
+        "worst_class": 0.9688,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.39928,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99416
+          ],
+          "worst_class": [
+            0.9688
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.39928
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9936,
+            0.9992,
+            0.9992,
+            1.0,
+            0.9984,
+            1.0,
+            0.9984,
+            0.9688,
+            0.984
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8837154,
+      "floor_sd": 0.006503163337689574
+    },
+    {
+      "method": "acp",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99392,
+        "marginal_std": 0.0,
+        "worst_class": 0.972,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.36824,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99392
+          ],
+          "worst_class": [
+            0.972
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.36824
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9952,
+            1.0,
+            1.0,
+            1.0,
+            0.9984,
+            1.0,
+            0.9976,
+            0.972,
+            0.976
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.88376296,
+      "floor_sd": 0.006450865734289939
+    },
+    {
+      "method": "acp",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99384,
+        "marginal_std": 0.0,
+        "worst_class": 0.9664,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.21072,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99384
+          ],
+          "worst_class": [
+            0.9664
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.21072
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9992,
+            0.9952,
+            0.9992,
+            0.9992,
+            0.9976,
+            0.9992,
+            0.9992,
+            0.9976,
+            0.9664,
+            0.9856
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.88367984,
+      "floor_sd": 0.006473434393121018
+    },
+    {
+      "method": "acp",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99496,
+        "marginal_std": 0.0,
+        "worst_class": 0.972,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.33744,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99496
+          ],
+          "worst_class": [
+            0.972
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.33744
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9968,
+            1.0,
+            1.0,
+            1.0,
+            0.9968,
+            0.9992,
+            0.9992,
+            0.972,
+            0.9856
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.88370036,
+      "floor_sd": 0.006505661230943597
+    },
+    {
+      "method": "acp",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99408,
+        "marginal_std": 0.0,
+        "worst_class": 0.9624,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.30368,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99408
+          ],
+          "worst_class": [
+            0.9624
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.30368
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9992,
+            0.9984,
+            1.0,
+            0.9992,
+            0.9992,
+            0.9952,
+            0.9968,
+            0.9992,
+            0.9624,
+            0.9912
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8836700000000001,
+      "floor_sd": 0.006510248164744436
+    },
+    {
+      "method": "acp",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99424,
+        "marginal_std": 0.0,
+        "worst_class": 0.9664,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.25976,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99424
+          ],
+          "worst_class": [
+            0.9664
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.25976
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9984,
+            0.9976,
+            0.9984,
+            0.9992,
+            1.0,
+            0.9984,
+            0.9976,
+            0.9992,
+            0.9664,
+            0.9872
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8836467199999999,
+      "floor_sd": 0.006495841672912906
+    },
+    {
+      "method": "acp",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99504,
+        "marginal_std": 0.0,
+        "worst_class": 0.9704,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.27592,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99504
+          ],
+          "worst_class": [
+            0.9704
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.27592
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9968,
+            0.9992,
+            0.9992,
+            1.0,
+            1.0,
+            0.9984,
+            0.9984,
+            0.9704,
+            0.988
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8837031200000002,
+      "floor_sd": 0.0064678678040987
+    },
+    {
+      "method": "acp",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99336,
+        "marginal_std": 0.0,
+        "worst_class": 0.9632,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.04936,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99336
+          ],
+          "worst_class": [
+            0.9632
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.04936
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9968,
+            1.0,
+            1.0,
+            0.9992,
+            0.9976,
+            0.9968,
+            0.9976,
+            0.9632,
+            0.9824
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8837272800000001,
+      "floor_sd": 0.006507315042246912
+    },
+    {
+      "method": "acp",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99448,
+        "marginal_std": 0.0,
+        "worst_class": 0.964,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.26056,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99448
+          ],
+          "worst_class": [
+            0.964
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.26056
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            1.0,
+            0.9976,
+            0.9992,
+            1.0,
+            1.0,
+            0.9968,
+            1.0,
+            1.0,
+            0.964,
+            0.9872
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.88360532,
+      "floor_sd": 0.006530577319012919
+    },
+    {
+      "method": "acp",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "acp",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.99296,
+        "marginal_std": 0.0,
+        "worst_class": 0.9576,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.0,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 7.34872,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.99296
+          ],
+          "worst_class": [
+            0.9576
+          ],
+          "frac_undercovered": [
+            0.0
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            7.34872
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9992,
+            0.9952,
+            1.0,
+            1.0,
+            1.0,
+            0.9992,
+            0.9992,
+            0.9976,
+            0.9576,
+            0.9816
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "audited_aps",
+        "set_rule": "greedy_crossing"
+      },
+      "floor_mean": 0.8836633599999999,
+      "floor_sd": 0.006474768385176574
+    },
+    {
+      "method": "clustered",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90208,
+        "marginal_std": 0.0,
+        "worst_class": 0.8392,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93496,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90208
+          ],
+          "worst_class": [
+            0.8392
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93496
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9656,
+            0.856,
+            0.84,
+            0.86,
+            0.9072,
+            0.8392,
+            0.9672,
+            0.9136,
+            0.9656
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88353024,
+      "floor_sd": 0.006678106572807135
+    },
+    {
+      "method": "clustered",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90176,
+        "marginal_std": 0.0,
+        "worst_class": 0.8368,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.936,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90176
+          ],
+          "worst_class": [
+            0.8368
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.936
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9056,
+            0.9704,
+            0.848,
+            0.8416,
+            0.8608,
+            0.9032,
+            0.8368,
+            0.9752,
+            0.9176,
+            0.9584
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88357808,
+      "floor_sd": 0.006644952316094085
+    },
+    {
+      "method": "clustered",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90216,
+        "marginal_std": 0.0,
+        "worst_class": 0.8368,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93616,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90216
+          ],
+          "worst_class": [
+            0.8368
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.93616
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9112,
+            0.9696,
+            0.8368,
+            0.8456,
+            0.8776,
+            0.8728,
+            0.852,
+            0.9784,
+            0.9064,
+            0.9712
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8835325199999999,
+      "floor_sd": 0.006621816584015568
+    },
+    {
+      "method": "clustered",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89704,
+        "marginal_std": 0.0,
+        "worst_class": 0.8272,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92976,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89704
+          ],
+          "worst_class": [
+            0.8272
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92976
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.908,
+            0.9728,
+            0.8272,
+            0.8312,
+            0.8608,
+            0.8856,
+            0.8312,
+            0.9776,
+            0.908,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88354052,
+      "floor_sd": 0.00667684020621708
+    },
+    {
+      "method": "clustered",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89648,
+        "marginal_std": 0.0,
+        "worst_class": 0.816,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93144,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89648
+          ],
+          "worst_class": [
+            0.816
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93144
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.916,
+            0.9712,
+            0.8448,
+            0.816,
+            0.8416,
+            0.888,
+            0.8328,
+            0.9776,
+            0.904,
+            0.9728
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8834395199999999,
+      "floor_sd": 0.006662858384634381
+    },
+    {
+      "method": "clustered",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90336,
+        "marginal_std": 0.0,
+        "worst_class": 0.8368,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93504,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90336
+          ],
+          "worst_class": [
+            0.8368
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93504
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.916,
+            0.9768,
+            0.8472,
+            0.8368,
+            0.8664,
+            0.8864,
+            0.8384,
+            0.9824,
+            0.912,
+            0.9712
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8834488000000001,
+      "floor_sd": 0.006734357143655724
+    },
+    {
+      "method": "clustered",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89632,
+        "marginal_std": 0.0,
+        "worst_class": 0.8248,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.928,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89632
+          ],
+          "worst_class": [
+            0.8248
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.928
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.912,
+            0.9728,
+            0.8384,
+            0.8248,
+            0.8504,
+            0.888,
+            0.8328,
+            0.976,
+            0.9,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8834880799999999,
+      "floor_sd": 0.006702880003671344
+    },
+    {
+      "method": "clustered",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89992,
+        "marginal_std": 0.0,
+        "worst_class": 0.8376,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93376,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89992
+          ],
+          "worst_class": [
+            0.8376
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.93376
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9056,
+            0.9696,
+            0.844,
+            0.8448,
+            0.8528,
+            0.88,
+            0.8376,
+            0.9784,
+            0.9168,
+            0.9696
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8835122400000001,
+      "floor_sd": 0.006648063478923842
+    },
+    {
+      "method": "clustered",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89888,
+        "marginal_std": 0.0,
+        "worst_class": 0.8208,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92976,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89888
+          ],
+          "worst_class": [
+            0.8208
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92976
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9144,
+            0.9712,
+            0.8464,
+            0.8208,
+            0.8592,
+            0.8856,
+            0.8416,
+            0.9768,
+            0.9032,
+            0.9696
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88345224,
+      "floor_sd": 0.0067046585748067895
+    },
+    {
+      "method": "clustered",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "clustered",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89512,
+        "marginal_std": 0.0,
+        "worst_class": 0.8288,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92432,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89512
+          ],
+          "worst_class": [
+            0.8288
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.92432
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9056,
+            0.9704,
+            0.8328,
+            0.8408,
+            0.8616,
+            0.8808,
+            0.8288,
+            0.9736,
+            0.8928,
+            0.964
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2196,
+            2201,
+            2195,
+            2212,
+            2213,
+            2204,
+            2204,
+            2228,
+            2202,
+            2199
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8833978800000001,
+      "floor_sd": 0.0067120899959107845
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90584,
+        "marginal_std": 0.0,
+        "worst_class": 0.8896,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94784,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90584
+          ],
+          "worst_class": [
+            0.8896
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94784
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8912,
+            0.9048,
+            0.9104,
+            0.924,
+            0.9056,
+            0.9208,
+            0.8896,
+            0.904,
+            0.9088,
+            0.8992
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837154,
+      "floor_sd": 0.006503163337689574
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89376,
+        "marginal_std": 0.0,
+        "worst_class": 0.8808,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.7,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93344,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89376
+          ],
+          "worst_class": [
+            0.8808
+          ],
+          "frac_undercovered": [
+            0.7
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.93344
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8824,
+            0.8864,
+            0.8968,
+            0.9032,
+            0.896,
+            0.9088,
+            0.8904,
+            0.8848,
+            0.908,
+            0.8808
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88376296,
+      "floor_sd": 0.006450865734289939
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89696,
+        "marginal_std": 0.0,
+        "worst_class": 0.8744,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9392,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89696
+          ],
+          "worst_class": [
+            0.8744
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.9392
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8936,
+            0.9048,
+            0.8984,
+            0.9072,
+            0.9088,
+            0.8744,
+            0.9016,
+            0.8872,
+            0.9008,
+            0.8928
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88367984,
+      "floor_sd": 0.006473434393121018
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90272,
+        "marginal_std": 0.0,
+        "worst_class": 0.8912,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9424,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90272
+          ],
+          "worst_class": [
+            0.8912
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9424
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024,
+            0.9176,
+            0.8912,
+            0.896,
+            0.892,
+            0.8976,
+            0.892,
+            0.924,
+            0.9032,
+            0.9112
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88370036,
+      "floor_sd": 0.006505661230943597
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89536,
+        "marginal_std": 0.0,
+        "worst_class": 0.8696,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93808,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89536
+          ],
+          "worst_class": [
+            0.8696
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.93808
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9072,
+            0.9104,
+            0.8992,
+            0.888,
+            0.8696,
+            0.8944,
+            0.8832,
+            0.9096,
+            0.9008,
+            0.8912
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836700000000001,
+      "floor_sd": 0.006510248164744436
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90536,
+        "marginal_std": 0.0,
+        "worst_class": 0.8896,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9428,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90536
+          ],
+          "worst_class": [
+            0.8896
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9428
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9104,
+            0.916,
+            0.8992,
+            0.9016,
+            0.916,
+            0.8936,
+            0.8896,
+            0.9192,
+            0.904,
+            0.904
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836467199999999,
+      "floor_sd": 0.006495841672912906
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89888,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93912,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89888
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.93912
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9032,
+            0.8968,
+            0.9032,
+            0.9008,
+            0.8936,
+            0.9024,
+            0.904,
+            0.9016,
+            0.8944,
+            0.8888
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837031200000002,
+      "floor_sd": 0.0064678678040987
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.9012,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94216,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9012
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94216
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8888,
+            0.896,
+            0.9072,
+            0.9088,
+            0.8936,
+            0.8896,
+            0.9032,
+            0.8984,
+            0.9136,
+            0.9128
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837272800000001,
+      "floor_sd": 0.006507315042246912
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90264,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94304,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90264
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94304
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9032,
+            0.9136,
+            0.916,
+            0.8888,
+            0.9048,
+            0.8992,
+            0.8936,
+            0.9016,
+            0.896,
+            0.9096
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88360532,
+      "floor_sd": 0.006530577319012919
+    },
+    {
+      "method": "mondrian",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "mondrian",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89952,
+        "marginal_std": 0.0,
+        "worst_class": 0.8808,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93808,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89952
+          ],
+          "worst_class": [
+            0.8808
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.93808
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8904,
+            0.9024,
+            0.8984,
+            0.9264,
+            0.8992,
+            0.9056,
+            0.892,
+            0.9024,
+            0.8808,
+            0.8976
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836633599999999,
+      "floor_sd": 0.006474768385176574
+    },
+    {
+      "method": "oracle",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90584,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94744,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90584
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94744
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9,
+            0.9136,
+            0.9168,
+            0.9192,
+            0.904,
+            0.9208,
+            0.8888,
+            0.8968,
+            0.9088,
+            0.8896
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88108776,
+      "floor_sd": 0.00765350814932274
+    },
+    {
+      "method": "oracle",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89928,
+        "marginal_std": 0.0,
+        "worst_class": 0.8776,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.942,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89928
+          ],
+          "worst_class": [
+            0.8776
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.942
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8952,
+            0.8776,
+            0.9008,
+            0.8976,
+            0.892,
+            0.9288,
+            0.8936,
+            0.9016,
+            0.92,
+            0.8856
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88113364,
+      "floor_sd": 0.007613602478297305
+    },
+    {
+      "method": "oracle",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89616,
+        "marginal_std": 0.0,
+        "worst_class": 0.88,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93624,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89616
+          ],
+          "worst_class": [
+            0.88
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.93624
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8904,
+            0.896,
+            0.8968,
+            0.884,
+            0.9136,
+            0.88,
+            0.9008,
+            0.9056,
+            0.904,
+            0.8904
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8811359199999999,
+      "floor_sd": 0.007630886008496243
+    },
+    {
+      "method": "oracle",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90384,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9476,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90384
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9476
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9168,
+            0.8912,
+            0.9152,
+            0.8888,
+            0.9016,
+            0.8992,
+            0.904,
+            0.908,
+            0.9072
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88108428,
+      "floor_sd": 0.007742816441187412
+    },
+    {
+      "method": "oracle",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.8924,
+        "marginal_std": 0.0,
+        "worst_class": 0.8664,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.7,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9312,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8924
+          ],
+          "worst_class": [
+            0.8664
+          ],
+          "frac_undercovered": [
+            0.7
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.9312
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8992,
+            0.8976,
+            0.9016,
+            0.8696,
+            0.8664,
+            0.8888,
+            0.88,
+            0.9112,
+            0.8936,
+            0.916
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810633999999998,
+      "floor_sd": 0.007685413048020642
+    },
+    {
+      "method": "oracle",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90152,
+        "marginal_std": 0.0,
+        "worst_class": 0.8704,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94264,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90152
+          ],
+          "worst_class": [
+            0.8704
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.94264
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8704,
+            0.916,
+            0.9144,
+            0.9072,
+            0.9096,
+            0.8936,
+            0.8992,
+            0.9128,
+            0.9072,
+            0.8848
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88110788,
+      "floor_sd": 0.007605650938736939
+    },
+    {
+      "method": "oracle",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89472,
+        "marginal_std": 0.0,
+        "worst_class": 0.8776,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.7,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93408,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89472
+          ],
+          "worst_class": [
+            0.8776
+          ],
+          "frac_undercovered": [
+            0.7
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.93408
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8856,
+            0.92,
+            0.8976,
+            0.8912,
+            0.904,
+            0.9024,
+            0.8976,
+            0.8776,
+            0.8824,
+            0.8888
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810667999999999,
+      "floor_sd": 0.0076634098254306894
+    },
+    {
+      "method": "oracle",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89944,
+        "marginal_std": 0.0,
+        "worst_class": 0.8856,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93968,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89944
+          ],
+          "worst_class": [
+            0.8856
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.93968
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8968,
+            0.8936,
+            0.908,
+            0.8968,
+            0.8928,
+            0.9016,
+            0.8856,
+            0.892,
+            0.908,
+            0.9192
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810916,
+      "floor_sd": 0.007659774347012603
+    },
+    {
+      "method": "oracle",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90728,
+        "marginal_std": 0.0,
+        "worst_class": 0.8704,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.2,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94728,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90728
+          ],
+          "worst_class": [
+            0.8704
+          ],
+          "frac_undercovered": [
+            0.2
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.94728
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9136,
+            0.9168,
+            0.9088,
+            0.8704,
+            0.8984,
+            0.9056,
+            0.9216,
+            0.9112,
+            0.9072,
+            0.9192
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88111348,
+      "floor_sd": 0.007696932663614864
+    },
+    {
+      "method": "oracle",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "oracle",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90592,
+        "marginal_std": 0.0,
+        "worst_class": 0.8784,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94896,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90592
+          ],
+          "worst_class": [
+            0.8784
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.94896
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8968,
+            0.9064,
+            0.9016,
+            0.9232,
+            0.9224,
+            0.9024,
+            0.9192,
+            0.9144,
+            0.8944,
+            0.8784
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8809927200000001,
+      "floor_sd": 0.007654455208297112
+    },
+    {
+      "method": "ppi",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90328,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94432,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90328
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94432
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8912,
+            0.9096,
+            0.916,
+            0.9192,
+            0.8992,
+            0.9208,
+            0.8888,
+            0.8904,
+            0.9032,
+            0.8944
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88108776,
+      "floor_sd": 0.00765350814932274
+    },
+    {
+      "method": "ppi",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90056,
+        "marginal_std": 0.0,
+        "worst_class": 0.8896,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9428,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90056
+          ],
+          "worst_class": [
+            0.8896
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9428
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8952,
+            0.8952,
+            0.9016,
+            0.8976,
+            0.892,
+            0.9248,
+            0.8928,
+            0.9072,
+            0.9096,
+            0.8896
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88113364,
+      "floor_sd": 0.007613602478297305
+    },
+    {
+      "method": "ppi",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89632,
+        "marginal_std": 0.0,
+        "worst_class": 0.8792,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93576,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89632
+          ],
+          "worst_class": [
+            0.8792
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.93576
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.892,
+            0.8936,
+            0.8944,
+            0.884,
+            0.9096,
+            0.8792,
+            0.8984,
+            0.9056,
+            0.9048,
+            0.9016
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8811359199999999,
+      "floor_sd": 0.007630886008496243
+    },
+    {
+      "method": "ppi",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90296,
+        "marginal_std": 0.0,
+        "worst_class": 0.8896,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9468,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90296
+          ],
+          "worst_class": [
+            0.8896
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9468
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9024,
+            0.9104,
+            0.8912,
+            0.9152,
+            0.8896,
+            0.9048,
+            0.8992,
+            0.912,
+            0.904,
+            0.9008
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88108428,
+      "floor_sd": 0.007742816441187412
+    },
+    {
+      "method": "ppi",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89456,
+        "marginal_std": 0.0,
+        "worst_class": 0.868,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93672,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.2,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89456
+          ],
+          "worst_class": [
+            0.868
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.2
+          ],
+          "mean_set_size": [
+            0.93672
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8968,
+            0.8928,
+            0.9016,
+            0.8696,
+            0.868,
+            0.9,
+            0.8808,
+            0.9256,
+            0.8936,
+            0.9168
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810633999999998,
+      "floor_sd": 0.007685413048020642
+    },
+    {
+      "method": "ppi",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90392,
+        "marginal_std": 0.0,
+        "worst_class": 0.8904,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94632,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90392
+          ],
+          "worst_class": [
+            0.8904
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94632
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8912,
+            0.908,
+            0.9144,
+            0.9048,
+            0.9096,
+            0.904,
+            0.8992,
+            0.9096,
+            0.908,
+            0.8904
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88110788,
+      "floor_sd": 0.007605650938736939
+    },
+    {
+      "method": "ppi",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.8988,
+        "marginal_std": 0.0,
+        "worst_class": 0.8888,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.7,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93848,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8988
+          ],
+          "worst_class": [
+            0.8888
+          ],
+          "frac_undercovered": [
+            0.7
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.93848
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.896,
+            0.9184,
+            0.8968,
+            0.8912,
+            0.904,
+            0.9088,
+            0.8984,
+            0.892,
+            0.8936,
+            0.8888
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810667999999999,
+      "floor_sd": 0.0076634098254306894
+    },
+    {
+      "method": "ppi",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.898,
+        "marginal_std": 0.0,
+        "worst_class": 0.8848,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9372,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.898
+          ],
+          "worst_class": [
+            0.8848
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.9372
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8968,
+            0.8936,
+            0.9048,
+            0.8952,
+            0.8848,
+            0.904,
+            0.8864,
+            0.8984,
+            0.9088,
+            0.9072
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8810916,
+      "floor_sd": 0.007659774347012603
+    },
+    {
+      "method": "ppi",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90472,
+        "marginal_std": 0.0,
+        "worst_class": 0.8728,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.3,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94632,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.1,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90472
+          ],
+          "worst_class": [
+            0.8728
+          ],
+          "frac_undercovered": [
+            0.3
+          ],
+          "frac_sig_undercovered": [
+            0.1
+          ],
+          "mean_set_size": [
+            0.94632
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9104,
+            0.912,
+            0.9088,
+            0.8728,
+            0.8992,
+            0.9136,
+            0.9216,
+            0.8992,
+            0.9048,
+            0.9048
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88111348,
+      "floor_sd": 0.007696932663614864
+    },
+    {
+      "method": "ppi",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "ppi",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90592,
+        "marginal_std": 0.0,
+        "worst_class": 0.8864,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.94864,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.0,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90592
+          ],
+          "worst_class": [
+            0.8864
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.0
+          ],
+          "mean_set_size": [
+            0.94864
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.8976,
+            0.9088,
+            0.9016,
+            0.9232,
+            0.9224,
+            0.904,
+            0.92,
+            0.8992,
+            0.896,
+            0.8864
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8809927200000001,
+      "floor_sd": 0.007654455208297112
+    },
+    {
+      "method": "split",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90216,
+        "marginal_std": 0.0,
+        "worst_class": 0.8392,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93512,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90216
+          ],
+          "worst_class": [
+            0.8392
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93512
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9656,
+            0.856,
+            0.84,
+            0.86,
+            0.9072,
+            0.8392,
+            0.9672,
+            0.9144,
+            0.9656
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837154,
+      "floor_sd": 0.006503163337689574
+    },
+    {
+      "method": "split",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90176,
+        "marginal_std": 0.0,
+        "worst_class": 0.8368,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.936,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90176
+          ],
+          "worst_class": [
+            0.8368
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.936
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9056,
+            0.9704,
+            0.848,
+            0.8416,
+            0.8608,
+            0.9032,
+            0.8368,
+            0.9752,
+            0.9176,
+            0.9584
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88376296,
+      "floor_sd": 0.006450865734289939
+    },
+    {
+      "method": "split",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.9016,
+        "marginal_std": 0.0,
+        "worst_class": 0.836,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9352,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9016
+          ],
+          "worst_class": [
+            0.836
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.9352
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9096,
+            0.9696,
+            0.836,
+            0.8456,
+            0.8768,
+            0.8728,
+            0.8504,
+            0.9784,
+            0.9064,
+            0.9704
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88367984,
+      "floor_sd": 0.006473434393121018
+    },
+    {
+      "method": "split",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89624,
+        "marginal_std": 0.0,
+        "worst_class": 0.8256,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92872,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89624
+          ],
+          "worst_class": [
+            0.8256
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92872
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.908,
+            0.9728,
+            0.8256,
+            0.8304,
+            0.8584,
+            0.8848,
+            0.8288,
+            0.9776,
+            0.908,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88370036,
+      "floor_sd": 0.006505661230943597
+    },
+    {
+      "method": "split",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89648,
+        "marginal_std": 0.0,
+        "worst_class": 0.816,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93168,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89648
+          ],
+          "worst_class": [
+            0.816
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93168
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.916,
+            0.9712,
+            0.8448,
+            0.816,
+            0.8416,
+            0.888,
+            0.8328,
+            0.9776,
+            0.904,
+            0.9728
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836700000000001,
+      "floor_sd": 0.006510248164744436
+    },
+    {
+      "method": "split",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90248,
+        "marginal_std": 0.0,
+        "worst_class": 0.8352,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93368,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90248
+          ],
+          "worst_class": [
+            0.8352
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93368
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9152,
+            0.976,
+            0.8448,
+            0.8352,
+            0.8664,
+            0.8856,
+            0.8376,
+            0.9824,
+            0.9112,
+            0.9704
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836467199999999,
+      "floor_sd": 0.006495841672912906
+    },
+    {
+      "method": "split",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89632,
+        "marginal_std": 0.0,
+        "worst_class": 0.8248,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.928,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89632
+          ],
+          "worst_class": [
+            0.8248
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.928
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.912,
+            0.9728,
+            0.8384,
+            0.8248,
+            0.8504,
+            0.888,
+            0.8328,
+            0.976,
+            0.9,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837031200000002,
+      "floor_sd": 0.0064678678040987
+    },
+    {
+      "method": "split",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.8988,
+        "marginal_std": 0.0,
+        "worst_class": 0.836,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9324,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.8988
+          ],
+          "worst_class": [
+            0.836
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.9324
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9032,
+            0.9688,
+            0.8424,
+            0.8424,
+            0.852,
+            0.88,
+            0.836,
+            0.9768,
+            0.9168,
+            0.9696
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837272800000001,
+      "floor_sd": 0.006507315042246912
+    },
+    {
+      "method": "split",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89912,
+        "marginal_std": 0.0,
+        "worst_class": 0.8208,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89912
+          ],
+          "worst_class": [
+            0.8208
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9144,
+            0.9712,
+            0.8464,
+            0.8208,
+            0.86,
+            0.8856,
+            0.8416,
+            0.9768,
+            0.9048,
+            0.9696
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88360532,
+      "floor_sd": 0.006530577319012919
+    },
+    {
+      "method": "split",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "split",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89608,
+        "marginal_std": 0.0,
+        "worst_class": 0.8312,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92592,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89608
+          ],
+          "worst_class": [
+            0.8312
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92592
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9712,
+            0.8336,
+            0.8416,
+            0.8616,
+            0.8832,
+            0.8312,
+            0.9736,
+            0.8944,
+            0.964
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836633599999999,
+      "floor_sd": 0.006474768385176574
+    },
+    {
+      "method": "weighted",
+      "view_seed": 0,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90176,
+        "marginal_std": 0.0,
+        "worst_class": 0.8384,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93416,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90176
+          ],
+          "worst_class": [
+            0.8384
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93416
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9648,
+            0.856,
+            0.8384,
+            0.8592,
+            0.9072,
+            0.8392,
+            0.9672,
+            0.9136,
+            0.9656
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837154,
+      "floor_sd": 0.006503163337689574
+    },
+    {
+      "method": "weighted",
+      "view_seed": 1,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90264,
+        "marginal_std": 0.0,
+        "worst_class": 0.8384,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.4,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9372,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90264
+          ],
+          "worst_class": [
+            0.8384
+          ],
+          "frac_undercovered": [
+            0.4
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.9372
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.972,
+            0.8488,
+            0.8432,
+            0.8608,
+            0.9048,
+            0.8384,
+            0.976,
+            0.9176,
+            0.9584
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88376296,
+      "floor_sd": 0.006450865734289939
+    },
+    {
+      "method": "weighted",
+      "view_seed": 2,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.9016,
+        "marginal_std": 0.0,
+        "worst_class": 0.836,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93512,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.9016
+          ],
+          "worst_class": [
+            0.836
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.93512
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9096,
+            0.9696,
+            0.836,
+            0.8456,
+            0.8768,
+            0.8728,
+            0.8504,
+            0.9784,
+            0.9064,
+            0.9704
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88367984,
+      "floor_sd": 0.006473434393121018
+    },
+    {
+      "method": "weighted",
+      "view_seed": 3,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89608,
+        "marginal_std": 0.0,
+        "worst_class": 0.8256,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9284,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89608
+          ],
+          "worst_class": [
+            0.8256
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.9284
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.908,
+            0.9728,
+            0.8256,
+            0.8304,
+            0.8584,
+            0.8848,
+            0.828,
+            0.9776,
+            0.9072,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88370036,
+      "floor_sd": 0.006505661230943597
+    },
+    {
+      "method": "weighted",
+      "view_seed": 4,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89648,
+        "marginal_std": 0.0,
+        "worst_class": 0.816,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93168,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89648
+          ],
+          "worst_class": [
+            0.816
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93168
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.916,
+            0.9712,
+            0.8448,
+            0.816,
+            0.8416,
+            0.888,
+            0.8328,
+            0.9776,
+            0.904,
+            0.9728
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836700000000001,
+      "floor_sd": 0.006510248164744436
+    },
+    {
+      "method": "weighted",
+      "view_seed": 5,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.90344,
+        "marginal_std": 0.0,
+        "worst_class": 0.8368,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93512,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.90344
+          ],
+          "worst_class": [
+            0.8368
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.93512
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.916,
+            0.9768,
+            0.848,
+            0.8368,
+            0.8664,
+            0.8864,
+            0.8384,
+            0.9824,
+            0.912,
+            0.9712
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836467199999999,
+      "floor_sd": 0.006495841672912906
+    },
+    {
+      "method": "weighted",
+      "view_seed": 6,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89608,
+        "marginal_std": 0.0,
+        "worst_class": 0.8248,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92752,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89608
+          ],
+          "worst_class": [
+            0.8248
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92752
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.912,
+            0.9728,
+            0.8384,
+            0.8248,
+            0.8496,
+            0.8872,
+            0.8328,
+            0.976,
+            0.8992,
+            0.968
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837031200000002,
+      "floor_sd": 0.0064678678040987
+    },
+    {
+      "method": "weighted",
+      "view_seed": 7,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89848,
+        "marginal_std": 0.0,
+        "worst_class": 0.8352,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.93184,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.5,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89848
+          ],
+          "worst_class": [
+            0.8352
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.5
+          ],
+          "mean_set_size": [
+            0.93184
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9032,
+            0.9688,
+            0.8424,
+            0.8424,
+            0.852,
+            0.8792,
+            0.8352,
+            0.9768,
+            0.916,
+            0.9688
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8837272800000001,
+      "floor_sd": 0.006507315042246912
+    },
+    {
+      "method": "weighted",
+      "view_seed": 8,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89888,
+        "marginal_std": 0.0,
+        "worst_class": 0.8208,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.5,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.92976,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89888
+          ],
+          "worst_class": [
+            0.8208
+          ],
+          "frac_undercovered": [
+            0.5
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.92976
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9144,
+            0.9712,
+            0.8464,
+            0.8208,
+            0.8592,
+            0.8856,
+            0.8416,
+            0.9768,
+            0.9032,
+            0.9696
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.88360532,
+      "floor_sd": 0.006530577319012919
+    },
+    {
+      "method": "weighted",
+      "view_seed": 9,
+      "row": {
+        "dataset": "cifar10c_gaussian_noise_s5",
+        "method": "weighted",
+        "alpha": 0.1,
+        "seeds": 1,
+        "n_valid_seeds": 1,
+        "n_failed_seeds": 0,
+        "m_labeled": 0,
+        "n_classes": 10,
+        "marginal": 0.89648,
+        "marginal_std": 0.0,
+        "worst_class": 0.832,
+        "worst_class_std": 0.0,
+        "frac_undercovered": 0.6,
+        "frac_undercovered_std": 0.0,
+        "mean_set_size": 0.9264,
+        "mean_set_size_std": 0.0,
+        "n_eval": 12500.0,
+        "n_pool": 12500.0,
+        "frac_sig_undercovered": 0.4,
+        "frac_sig_undercovered_std": 0.0,
+        "per_seed": {
+          "marginal": [
+            0.89648
+          ],
+          "worst_class": [
+            0.832
+          ],
+          "frac_undercovered": [
+            0.6
+          ],
+          "frac_sig_undercovered": [
+            0.4
+          ],
+          "mean_set_size": [
+            0.9264
+          ],
+          "n_sig_untestable_classes": [
+            0
+          ],
+          "n_sig_degenerate_classes": [
+            0
+          ]
+        },
+        "per_class_coverage_per_seed": [
+          [
+            0.9064,
+            0.9712,
+            0.8344,
+            0.844,
+            0.8616,
+            0.8832,
+            0.832,
+            0.9736,
+            0.8944,
+            0.964
+          ]
+        ],
+        "n_eval_per_class_per_seed": [
+          [
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250,
+            1250
+          ]
+        ],
+        "n_cal_per_class_per_seed": [
+          [
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500,
+            2500
+          ]
+        ],
+        "n_sig_untestable_classes_per_seed": [
+          0
+        ],
+        "n_sig_degenerate_classes_per_seed": [
+          0
+        ],
+        "score": "lac",
+        "set_rule": "score_threshold"
+      },
+      "floor_mean": 0.8836633599999999,
+      "floor_sd": 0.006474768385176574
+    }
+  ],
+  "summary": [
+    {
+      "method": "acp",
+      "n_seeds": 10,
+      "marginal_mean": 0.9941039999999999,
+      "marginal_std": 0.0006114114817371455,
+      "worst_class_mean": 0.96632,
+      "worst_class_std": 0.004402908129861442,
+      "frac_undercovered_mean": 0.0,
+      "frac_undercovered_std": 0.0,
+      "frac_sig_undercovered_mean": 0.0,
+      "frac_sig_undercovered_std": 0.0,
+      "mean_set_size_mean": 7.2813680000000005,
+      "mean_set_size_std": 0.0945391885727818,
+      "floor_mean": 0.883687436,
+      "floor_sd": 0.006491974308423657,
+      "excess": 0.08263256399999996,
+      "z": 12.728418209046229,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "clustered",
+      "n_seeds": 10,
+      "marginal_mean": 0.8993120000000001,
+      "marginal_std": 0.0028002742722811978,
+      "worst_class_mean": 0.83048,
+      "worst_class_std": 0.007718652732180667,
+      "frac_undercovered_mean": 0.48999999999999994,
+      "frac_undercovered_std": 0.05385164807134503,
+      "frac_sig_undercovered_mean": 0.43000000000000005,
+      "frac_sig_undercovered_std": 0.04582575694955839,
+      "mean_set_size_mean": 0.9319200000000001,
+      "mean_set_size_std": 0.0037372931380880376,
+      "floor_mean": 0.8834920120000002,
+      "floor_sd": 0.0066786623260736725,
+      "excess": -0.053012012000000164,
+      "z": -7.937519433051718,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "mondrian",
+      "n_seeds": 10,
+      "marginal_mean": 0.900224,
+      "marginal_std": 0.003864389214351989,
+      "worst_class_mean": 0.8842399999999999,
+      "worst_class_std": 0.00709298244746171,
+      "frac_undercovered_mean": 0.48,
+      "frac_undercovered_std": 0.12489995996796795,
+      "frac_sig_undercovered_mean": 0.04,
+      "frac_sig_undercovered_std": 0.04898979485566357,
+      "mean_set_size_mean": 0.940616,
+      "mean_set_size_std": 0.0037013381364041737,
+      "floor_mean": 0.883687436,
+      "floor_sd": 0.006491974308423657,
+      "excess": 0.0005525639999999221,
+      "z": 0.08511493942342672,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "oracle",
+      "n_seeds": 10,
+      "marginal_mean": 0.9006399999999999,
+      "marginal_std": 0.004861341378673176,
+      "worst_class_mean": 0.8783999999999998,
+      "worst_class_std": 0.007375635565834343,
+      "frac_undercovered_mean": 0.4699999999999999,
+      "frac_undercovered_std": 0.17916472867168917,
+      "frac_sig_undercovered_mean": 0.06999999999999999,
+      "frac_sig_undercovered_std": 0.06403124237432849,
+      "mean_set_size_mean": 0.9417119999999999,
+      "mean_set_size_std": 0.0059563425019050036,
+      "floor_mean": 0.8810877479999999,
+      "floor_sd": 0.007660644910841655,
+      "excess": -0.0026877480000000453,
+      "z": -0.3508514010610563,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "ppi",
+      "n_seeds": 10,
+      "marginal_mean": 0.900904,
+      "marginal_std": 0.0036459380137352595,
+      "worst_class_mean": 0.88384,
+      "worst_class_std": 0.007485880041785327,
+      "frac_undercovered_mean": 0.48999999999999994,
+      "frac_undercovered_std": 0.1445683229480096,
+      "frac_sig_undercovered_mean": 0.04,
+      "frac_sig_undercovered_std": 0.066332495807108,
+      "mean_set_size_mean": 0.9423360000000001,
+      "mean_set_size_std": 0.004599937390878279,
+      "floor_mean": 0.8810877479999999,
+      "floor_sd": 0.007660644910841655,
+      "excess": 0.002752252000000066,
+      "z": 0.3592715798776899,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "split",
+      "n_seeds": 10,
+      "marginal_mean": 0.899104,
+      "marginal_std": 0.002570926681179352,
+      "worst_class_mean": 0.83016,
+      "worst_class_std": 0.007470903559811229,
+      "frac_undercovered_mean": 0.48999999999999994,
+      "frac_undercovered_std": 0.05385164807134503,
+      "frac_sig_undercovered_mean": 0.42000000000000004,
+      "frac_sig_undercovered_std": 0.039999999999999994,
+      "mean_set_size_mean": 0.9316720000000001,
+      "mean_set_size_std": 0.0032512791328952384,
+      "floor_mean": 0.883687436,
+      "floor_sd": 0.006491974308423657,
+      "excess": -0.053527435999999984,
+      "z": -8.245170645630175,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    },
+    {
+      "method": "weighted",
+      "n_seeds": 10,
+      "marginal_mean": 0.899192,
+      "marginal_std": 0.0027750776565710665,
+      "worst_class_mean": 0.8304,
+      "worst_class_std": 0.007614722581946128,
+      "frac_undercovered_mean": 0.5,
+      "frac_undercovered_std": 0.06324555320336757,
+      "frac_sig_undercovered_mean": 0.42000000000000004,
+      "frac_sig_undercovered_std": 0.039999999999999994,
+      "mean_set_size_mean": 0.93172,
+      "mean_set_size_std": 0.0034630391277027093,
+      "floor_mean": 0.883687436,
+      "floor_sd": 0.006491974308423657,
+      "excess": -0.053287435999999966,
+      "z": -8.208201922619578,
+      "floor_status": "ok",
+      "floor_n_seeds": 10
+    }
+  ],
+  "floor": {
+    "acp": {
+      "mean": 0.883687436,
+      "sd": 0.006491974308423657,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "clustered": {
+      "mean": 0.8834920120000002,
+      "sd": 0.0066786623260736725,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "mondrian": {
+      "mean": 0.883687436,
+      "sd": 0.006491974308423657,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "oracle": {
+      "mean": 0.8810877479999999,
+      "sd": 0.007660644910841655,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "ppi": {
+      "mean": 0.8810877479999999,
+      "sd": 0.007660644910841655,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "split": {
+      "mean": 0.883687436,
+      "sd": 0.006491974308423657,
+      "status": "ok",
+      "n_successful_seeds": 10
+    },
+    "weighted": {
+      "mean": 0.883687436,
+      "sd": 0.006491974308423657,
+      "status": "ok",
+      "n_successful_seeds": 10
+    }
+  }
+}

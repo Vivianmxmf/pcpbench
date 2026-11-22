@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_contrast_mild",
+  "method": "split",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.8359,
+  "marginal_std": 0.0,
+  "worst_class": 0.558,
+  "worst_class_std": 0.0,
+  "frac_undercovered": 0.5999999999999999,
+  "frac_undercovered_std": 1.1102230246251565e-16,
+  "mean_set_size": 0.8762000000000001,
+  "mean_set_size_std": 1.1102230246251565e-16
+}

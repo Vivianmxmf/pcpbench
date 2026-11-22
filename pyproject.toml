@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcpbench"
+version = "1.0.0"
+description = "Per-class conformal prediction under distribution shift: benchmark + library"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+caches = ["open_clip_torch", "datasets", "Pillow"]
+
+[project.scripts]
+pcpbench = "pcpbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

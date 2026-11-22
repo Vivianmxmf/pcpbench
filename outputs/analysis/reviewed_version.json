@@ -1,0 +1,26 @@
+{
+  "description": "Values the reviewed version of the paper and the response to the reviews printed, kept so that the released code can state what changed since review.",
+  "values": {
+    "reviewed.counts.demoted": "88",
+    "reviewed.counts.non_demoted": "404",
+    "reviewed.counts.recovered": "86",
+    "reviewed.counts.regime_a": "110",
+    "reviewed.delta.acp.info.magnitude": "0.269",
+    "reviewed.imagenet.acp.worst_class": "0.003",
+    "reviewed.ksweep_all.K100.acp.n_above": "36",
+    "reviewed.ksweep_all.K100.acp.n_below": "42",
+    "reviewed.label.acp.m10.mean": "0.758",
+    "reviewed.label.acp.m50.mean": "0.646",
+    "reviewed.monotonicity.acp": "8",
+    "reviewed.monotonicity.n_violations": "19",
+    "reviewed.sweep.acp.K10.mean": "0.943",
+    "reviewed.sweep.acp.K100.mean": "0.594"
+  },
+  "regime_counts": {
+    "non_demoted": 404,
+    "recovered": 86,
+    "regime_a": 110,
+    "regime_b": 194,
+    "other": 14
+  }
+}

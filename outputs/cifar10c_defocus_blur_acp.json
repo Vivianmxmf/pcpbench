@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10c_defocus_blur",
+  "method": "acp",
+  "alpha": 0.1,
+  "seeds": 10,
+  "m_labeled": 0,
+  "n_classes": 10,
+  "marginal": 0.8245000000000001,
+  "marginal_std": 1.1102230246251565e-16,
+  "worst_class": 0.0020000000000000005,
+  "worst_class_std": 4.336808689942018e-19,
+  "frac_undercovered": 0.29999999999999993,
+  "frac_undercovered_std": 5.551115123125783e-17,
+  "mean_set_size": 7.963300000000001,
+  "mean_set_size_std": 8.881784197001252e-16
+}

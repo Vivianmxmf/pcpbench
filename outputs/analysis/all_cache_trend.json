@@ -1,0 +1,2741 @@
+{
+  "config": {
+    "design": "independent",
+    "n_files": 80,
+    "n_seeds": 5,
+    "backbones": [
+      "ViT-B/32",
+      "ViT-L/14"
+    ],
+    "k_values": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "alpha": 0.1,
+    "n_cal_per_class": 50,
+    "n_eval_per_class": 50,
+    "reference_reps": 20000,
+    "band_z": 2,
+    "ci_level": 0.95,
+    "interval": "two-sided t interval on the per-seed means of a scope, unadjusted outside the family; the caches of a scope are fixed conditions, so it is conditional on the image set",
+    "family": null,
+    "acp_tie_breaks": [
+      "random"
+    ],
+    "code_versions": [],
+    "distinct_source_sets": null
+  },
+  "reference": {
+    "10": {
+      "mean": 0.800275,
+      "sd": 0.04851125685964139
+    },
+    "25": {
+      "mean": 0.7651879999999999,
+      "sd": 0.04500517669442555
+    },
+    "50": {
+      "mean": 0.740396,
+      "sd": 0.04310146251351039
+    },
+    "100": {
+      "mean": 0.717556,
+      "sd": 0.04038846896604613
+    }
+  },
+  "scopes": {
+    "ViT-B/32": {
+      "backbone": "ViT-B/32",
+      "n_caches": 40,
+      "caches": [
+        "gaussian_noise_s1",
+        "gaussian_noise_s2",
+        "gaussian_noise_s3",
+        "gaussian_noise_s4",
+        "gaussian_noise_s5",
+        "shot_noise_s1",
+        "shot_noise_s2",
+        "shot_noise_s3",
+        "shot_noise_s4",
+        "shot_noise_s5",
+        "defocus_blur_s1",
+        "defocus_blur_s2",
+        "defocus_blur_s3",
+        "defocus_blur_s4",
+        "defocus_blur_s5",
+        "gaussian_blur_s1",
+        "gaussian_blur_s2",
+        "gaussian_blur_s3",
+        "gaussian_blur_s4",
+        "gaussian_blur_s5",
+        "contrast_s1",
+        "contrast_s2",
+        "contrast_s3",
+        "contrast_s4",
+        "contrast_s5",
+        "brightness_s1",
+        "brightness_s2",
+        "brightness_s3",
+        "brightness_s4",
+        "brightness_s5",
+        "fog_s1",
+        "fog_s2",
+        "fog_s3",
+        "fog_s4",
+        "fog_s5",
+        "jpeg_compression_s1",
+        "jpeg_compression_s2",
+        "jpeg_compression_s3",
+        "jpeg_compression_s4",
+        "jpeg_compression_s5"
+      ],
+      "selected_on_outcomes": false,
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.9709,
+          "ci_lo": 0.9548998693477055,
+          "ci_hi": 0.9869001306522946,
+          "reference": 0.800275,
+          "diff": 0.17062500000000003,
+          "zero_share": 0.0,
+          "set_over_k": 0.917475,
+          "family_min": 0.9255999999999999,
+          "family_max": 0.9928,
+          "band_single_draw": {
+            "below": 0,
+            "within": 2,
+            "above": 38,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9621999999999999,
+          "ci_lo": 0.9463620901910121,
+          "ci_hi": 0.9780379098089882,
+          "reference": 0.7651879999999999,
+          "diff": 0.19701200000000008,
+          "zero_share": 0.0,
+          "set_over_k": 0.93729856,
+          "family_min": 0.9112,
+          "family_max": 0.9952000000000001,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.9542000000000002,
+          "ci_lo": 0.9486367078631408,
+          "ci_hi": 0.9597632921368591,
+          "reference": 0.740396,
+          "diff": 0.2138040000000001,
+          "zero_share": 0.0,
+          "set_over_k": 0.9414796000000001,
+          "family_min": 0.8784000000000001,
+          "family_max": 0.9936,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.9462999999999999,
+          "ci_lo": 0.9417462914491973,
+          "ci_hi": 0.950853708550803,
+          "reference": 0.717556,
+          "diff": 0.22874399999999995,
+          "zero_share": 0.0,
+          "set_over_k": 0.9465043200000001,
+          "family_min": 0.8376,
+          "family_max": 0.9856,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.1483,
+          "ci_lo": 0.12007569089228662,
+          "ci_hi": 0.1765243091077133,
+          "reference": 0.800275,
+          "diff": -0.651975,
+          "zero_share": 0.525,
+          "set_over_k": 0.042907,
+          "family_min": 0.0128,
+          "family_max": 0.7008,
+          "band_single_draw": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.1158,
+          "ci_lo": 0.10832935027346616,
+          "ci_hi": 0.12327064972653379,
+          "reference": 0.7651879999999999,
+          "diff": -0.6493879999999999,
+          "zero_share": 0.63,
+          "set_over_k": 0.05454623999999999,
+          "family_min": 0.0016,
+          "family_max": 0.6352,
+          "band_single_draw": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.12010000000000001,
+          "ci_lo": 0.10508792794490589,
+          "ci_hi": 0.13511207205509415,
+          "reference": 0.740396,
+          "diff": -0.6202960000000001,
+          "zero_share": 0.65,
+          "set_over_k": 0.07162903999999999,
+          "family_min": 0.0008,
+          "family_max": 0.64,
+          "band_single_draw": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.0958,
+          "ci_lo": 0.07635695318157287,
+          "ci_hi": 0.11524304681842712,
+          "reference": 0.717556,
+          "diff": -0.621756,
+          "zero_share": 0.685,
+          "set_over_k": 0.057297270000000004,
+          "family_min": 0.0,
+          "family_max": 0.5616,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.16060000000000002,
+          "ci_lo": 0.13836502524351985,
+          "ci_hi": 0.18283497475648003,
+          "reference": 0.800275,
+          "diff": -0.639675,
+          "zero_share": 0.52,
+          "set_over_k": 0.041928,
+          "family_min": 0.007200000000000001,
+          "family_max": 0.7448,
+          "band_single_draw": {
+            "below": 36,
+            "within": 4,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.11860000000000001,
+          "ci_lo": 0.10237857343646975,
+          "ci_hi": 0.1348214265635302,
+          "reference": 0.7651879999999999,
+          "diff": -0.6465879999999998,
+          "zero_share": 0.65,
+          "set_over_k": 0.06148208,
+          "family_min": 0.0008,
+          "family_max": 0.6776000000000001,
+          "band_single_draw": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.11130000000000001,
+          "ci_lo": 0.10015437964003893,
+          "ci_hi": 0.12244562035996107,
+          "reference": 0.740396,
+          "diff": -0.6290960000000001,
+          "zero_share": 0.67,
+          "set_over_k": 0.06938064000000001,
+          "family_min": 0.0008,
+          "family_max": 0.648,
+          "band_single_draw": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.10099999999999999,
+          "ci_lo": 0.09462323631047988,
+          "ci_hi": 0.10737676368952014,
+          "reference": 0.717556,
+          "diff": -0.616556,
+          "zero_share": 0.69,
+          "set_over_k": 0.06475473000000001,
+          "family_min": 0.0,
+          "family_max": 0.608,
+          "band_single_draw": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.7999,
+          "ci_lo": 0.7811646521150843,
+          "ci_hi": 0.8186353478849158,
+          "reference": 0.800275,
+          "diff": -0.0003749999999999032,
+          "zero_share": 0.0,
+          "set_over_k": 0.43166499999999997,
+          "family_min": 0.7872,
+          "family_max": 0.8119999999999998,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7587,
+          "ci_lo": 0.7357644795112616,
+          "ci_hi": 0.7816355204887387,
+          "reference": 0.7651879999999999,
+          "diff": -0.006487999999999827,
+          "zero_share": 0.0,
+          "set_over_k": 0.43291103999999997,
+          "family_min": 0.7328,
+          "family_max": 0.7776000000000001,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 3,
+            "within": 37,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.743,
+          "ci_lo": 0.7335335842959014,
+          "ci_hi": 0.7524664157040988,
+          "reference": 0.740396,
+          "diff": 0.0026039999999999397,
+          "zero_share": 0.0,
+          "set_over_k": 0.44102764,
+          "family_min": 0.7336,
+          "family_max": 0.7600000000000001,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 39,
+            "above": 1,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.7138,
+          "ci_lo": 0.6998651218676072,
+          "ci_hi": 0.7277348781323921,
+          "reference": 0.717556,
+          "diff": -0.0037559999999999816,
+          "zero_share": 0.0,
+          "set_over_k": 0.4362364,
+          "family_min": 0.7031999999999999,
+          "family_max": 0.7272,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 1,
+            "within": 39,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.23619999999999997,
+          "ci_lo": 0.17695753140826356,
+          "ci_hi": 0.2954424685917364,
+          "reference": 0.800275,
+          "diff": -0.564075,
+          "zero_share": 0.34,
+          "set_over_k": 0.09912800000000001,
+          "family_min": 0.0504,
+          "family_max": 0.7687999999999999,
+          "band_single_draw": {
+            "below": 35,
+            "within": 5,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 36,
+            "within": 4,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.07519999999999999,
+          "ci_lo": 0.05203456259219704,
+          "ci_hi": 0.09836543740780296,
+          "reference": 0.7651879999999999,
+          "diff": -0.6899879999999998,
+          "zero_share": 0.59,
+          "set_over_k": 0.04176928,
+          "family_min": 0.004,
+          "family_max": 0.35680000000000006,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.0245,
+          "ci_lo": 0.0,
+          "ci_hi": 0.06285365229462357,
+          "reference": 0.740396,
+          "diff": -0.7158960000000001,
+          "zero_share": 0.775,
+          "set_over_k": 0.023710679999999998,
+          "family_min": 0.0,
+          "family_max": 0.132,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.0014000000000000002,
+          "ci_lo": 0.0002894219579208826,
+          "ci_hi": 0.0025105780420791174,
+          "reference": 0.717556,
+          "diff": -0.716156,
+          "zero_share": 0.93,
+          "set_over_k": 0.012849050000000002,
+          "family_min": 0.0,
+          "family_max": 0.0048,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.14610000000000004,
+          "ci_lo": 0.11621482156095758,
+          "ci_hi": 0.17598517843904232,
+          "reference": 0.800275,
+          "diff": -0.654175,
+          "zero_share": 0.535,
+          "set_over_k": 0.04189999999999999,
+          "family_min": 0.0128,
+          "family_max": 0.6968000000000001,
+          "band_single_draw": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.0821,
+          "ci_lo": 0.06325184315507171,
+          "ci_hi": 0.10094815684492828,
+          "reference": 0.7651879999999999,
+          "diff": -0.6830879999999999,
+          "zero_share": 0.6,
+          "set_over_k": 0.03926608,
+          "family_min": 0.0048000000000000004,
+          "family_max": 0.436,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.0533,
+          "ci_lo": 0.01870400106942597,
+          "ci_hi": 0.08789599893057404,
+          "reference": 0.740396,
+          "diff": -0.687096,
+          "zero_share": 0.625,
+          "set_over_k": 0.043579999999999994,
+          "family_min": 0.0,
+          "family_max": 0.2736,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.0177,
+          "ci_lo": 0.016022604307536673,
+          "ci_hi": 0.01937739569246333,
+          "reference": 0.717556,
+          "diff": -0.6998559999999999,
+          "zero_share": 0.675,
+          "set_over_k": 0.03794371,
+          "family_min": 0.0,
+          "family_max": 0.0704,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.353,
+          "ci_lo": 0.30309151677028356,
+          "ci_hi": 0.4029084832297163,
+          "reference": 0.800275,
+          "diff": -0.447275,
+          "zero_share": 0.28,
+          "set_over_k": 0.222172,
+          "family_min": 0.0344,
+          "family_max": 0.6903999999999999,
+          "band_single_draw": {
+            "below": 31,
+            "within": 9,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 35,
+            "within": 5,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.3214,
+          "ci_lo": 0.25342896055840897,
+          "ci_hi": 0.38937103944159107,
+          "reference": 0.7651879999999999,
+          "diff": -0.44378799999999985,
+          "zero_share": 0.265,
+          "set_over_k": 0.28671184000000005,
+          "family_min": 0.0632,
+          "family_max": 0.6968000000000001,
+          "band_single_draw": {
+            "below": 34,
+            "within": 2,
+            "above": 4,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 34,
+            "within": 0,
+            "above": 6,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.5405000000000001,
+          "ci_lo": 0.4798456350933103,
+          "ci_hi": 0.6011543649066897,
+          "reference": 0.740396,
+          "diff": -0.19989599999999996,
+          "zero_share": 0.045,
+          "set_over_k": 0.5219552799999999,
+          "family_min": 0.16240000000000002,
+          "family_max": 0.8704000000000001,
+          "band_single_draw": {
+            "below": 22,
+            "within": 3,
+            "above": 15,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 23,
+            "within": 2,
+            "above": 15,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.6772999999999999,
+          "ci_lo": 0.6495369372052819,
+          "ci_hi": 0.7050630627947181,
+          "reference": 0.717556,
+          "diff": -0.04025600000000007,
+          "zero_share": 0.0,
+          "set_over_k": 0.66222511,
+          "family_min": 0.07120000000000001,
+          "family_max": 0.9936,
+          "band_single_draw": {
+            "below": 15,
+            "within": 0,
+            "above": 25,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 15,
+            "within": 0,
+            "above": 25,
+            "half_width": 0.036124544846087916
+          }
+        }
+      ],
+      "decomposition": null
+    },
+    "ViT-L/14": {
+      "backbone": "ViT-L/14",
+      "n_caches": 40,
+      "caches": [
+        "vitL_gaussian_noise_s1",
+        "vitL_gaussian_noise_s2",
+        "vitL_gaussian_noise_s3",
+        "vitL_gaussian_noise_s4",
+        "vitL_gaussian_noise_s5",
+        "vitL_shot_noise_s1",
+        "vitL_shot_noise_s2",
+        "vitL_shot_noise_s3",
+        "vitL_shot_noise_s4",
+        "vitL_shot_noise_s5",
+        "vitL_defocus_blur_s1",
+        "vitL_defocus_blur_s2",
+        "vitL_defocus_blur_s3",
+        "vitL_defocus_blur_s4",
+        "vitL_defocus_blur_s5",
+        "vitL_gaussian_blur_s1",
+        "vitL_gaussian_blur_s2",
+        "vitL_gaussian_blur_s3",
+        "vitL_gaussian_blur_s4",
+        "vitL_gaussian_blur_s5",
+        "vitL_contrast_s1",
+        "vitL_contrast_s2",
+        "vitL_contrast_s3",
+        "vitL_contrast_s4",
+        "vitL_contrast_s5",
+        "vitL_brightness_s1",
+        "vitL_brightness_s2",
+        "vitL_brightness_s3",
+        "vitL_brightness_s4",
+        "vitL_brightness_s5",
+        "vitL_fog_s1",
+        "vitL_fog_s2",
+        "vitL_fog_s3",
+        "vitL_fog_s4",
+        "vitL_fog_s5",
+        "vitL_jpeg_compression_s1",
+        "vitL_jpeg_compression_s2",
+        "vitL_jpeg_compression_s3",
+        "vitL_jpeg_compression_s4",
+        "vitL_jpeg_compression_s5"
+      ],
+      "selected_on_outcomes": false,
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.9743999999999999,
+          "ci_lo": 0.9542808281448144,
+          "ci_hi": 0.9945191718551859,
+          "reference": 0.800275,
+          "diff": 0.17412499999999997,
+          "zero_share": 0.0,
+          "set_over_k": 0.928605,
+          "family_min": 0.9351999999999998,
+          "family_max": 0.988,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9682999999999999,
+          "ci_lo": 0.9553768484338587,
+          "ci_hi": 0.9812231515661411,
+          "reference": 0.7651879999999999,
+          "diff": 0.20311200000000007,
+          "zero_share": 0.0,
+          "set_over_k": 0.9391715199999999,
+          "family_min": 0.9376000000000001,
+          "family_max": 0.9864,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.9589,
+          "ci_lo": 0.9456179671640027,
+          "ci_hi": 0.9721820328359977,
+          "reference": 0.740396,
+          "diff": 0.21850399999999992,
+          "zero_share": 0.0,
+          "set_over_k": 0.9453632000000001,
+          "family_min": 0.8967999999999999,
+          "family_max": 0.9887999999999999,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.9484,
+          "ci_lo": 0.9455753849674777,
+          "ci_hi": 0.9512246150325225,
+          "reference": 0.717556,
+          "diff": 0.23084400000000005,
+          "zero_share": 0.0,
+          "set_over_k": 0.94624543,
+          "family_min": 0.8824000000000001,
+          "family_max": 0.9743999999999999,
+          "band_single_draw": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 0,
+            "above": 40,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.1365,
+          "ci_lo": 0.11395687285874018,
+          "ci_hi": 0.1590431271412598,
+          "reference": 0.800275,
+          "diff": -0.663775,
+          "zero_share": 0.52,
+          "set_over_k": 0.038177,
+          "family_min": 0.005600000000000001,
+          "family_max": 0.5384,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.106,
+          "ci_lo": 0.09729727278820677,
+          "ci_hi": 0.11470272721179325,
+          "reference": 0.7651879999999999,
+          "diff": -0.6591879999999999,
+          "zero_share": 0.595,
+          "set_over_k": 0.03696944,
+          "family_min": 0.0008,
+          "family_max": 0.4768,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.1007,
+          "ci_lo": 0.07370772682586665,
+          "ci_hi": 0.12769227317413337,
+          "reference": 0.740396,
+          "diff": -0.639696,
+          "zero_share": 0.63,
+          "set_over_k": 0.04758668,
+          "family_min": 0.0,
+          "family_max": 0.4431999999999999,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.0971,
+          "ci_lo": 0.08215870054693236,
+          "ci_hi": 0.11204129945306765,
+          "reference": 0.717556,
+          "diff": -0.620456,
+          "zero_share": 0.67,
+          "set_over_k": 0.042557080000000004,
+          "family_min": 0.0008,
+          "family_max": 0.4615999999999999,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.1465,
+          "ci_lo": 0.12540084388818568,
+          "ci_hi": 0.16759915611181425,
+          "reference": 0.800275,
+          "diff": -0.653775,
+          "zero_share": 0.535,
+          "set_over_k": 0.042824,
+          "family_min": 0.0072,
+          "family_max": 0.5704,
+          "band_single_draw": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.11040000000000001,
+          "ci_lo": 0.08443838242023378,
+          "ci_hi": 0.13636161757976623,
+          "reference": 0.7651879999999999,
+          "diff": -0.6547879999999998,
+          "zero_share": 0.615,
+          "set_over_k": 0.042270079999999995,
+          "family_min": 0.0,
+          "family_max": 0.5056,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.0958,
+          "ci_lo": 0.0807930637890709,
+          "ci_hi": 0.11080693621092909,
+          "reference": 0.740396,
+          "diff": -0.6445960000000001,
+          "zero_share": 0.655,
+          "set_over_k": 0.05167236,
+          "family_min": 0.0,
+          "family_max": 0.4464,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.09759999999999999,
+          "ci_lo": 0.08959632209054555,
+          "ci_hi": 0.10560367790945444,
+          "reference": 0.717556,
+          "diff": -0.619956,
+          "zero_share": 0.705,
+          "set_over_k": 0.045334330000000006,
+          "family_min": 0.0,
+          "family_max": 0.488,
+          "band_single_draw": {
+            "below": 38,
+            "within": 2,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.8135000000000001,
+          "ci_lo": 0.7962446672972794,
+          "ci_hi": 0.8307553327027206,
+          "reference": 0.800275,
+          "diff": 0.013225000000000153,
+          "zero_share": 0.0,
+          "set_over_k": 0.41913200000000006,
+          "family_min": 0.8008,
+          "family_max": 0.8344000000000001,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 37,
+            "above": 3,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7582999999999999,
+          "ci_lo": 0.7437693478159642,
+          "ci_hi": 0.772830652184036,
+          "reference": 0.7651879999999999,
+          "diff": -0.006888000000000005,
+          "zero_share": 0.0,
+          "set_over_k": 0.39353008,
+          "family_min": 0.7512000000000001,
+          "family_max": 0.7687999999999999,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 1,
+            "within": 39,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.7387999999999999,
+          "ci_lo": 0.7274572787446691,
+          "ci_hi": 0.7501427212553309,
+          "reference": 0.740396,
+          "diff": -0.0015960000000001529,
+          "zero_share": 0.0,
+          "set_over_k": 0.41470176000000003,
+          "family_min": 0.7248,
+          "family_max": 0.7496,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.7125,
+          "ci_lo": 0.7056567527379373,
+          "ci_hi": 0.7193432472620623,
+          "reference": 0.717556,
+          "diff": -0.005055999999999949,
+          "zero_share": 0.0,
+          "set_over_k": 0.4092438299999999,
+          "family_min": 0.6951999999999999,
+          "family_max": 0.7296,
+          "band_single_draw": {
+            "below": 0,
+            "within": 40,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 2,
+            "within": 38,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.25739999999999996,
+          "ci_lo": 0.190253352671039,
+          "ci_hi": 0.32454664732896105,
+          "reference": 0.800275,
+          "diff": -0.542875,
+          "zero_share": 0.285,
+          "set_over_k": 0.09727699999999999,
+          "family_min": 0.06960000000000001,
+          "family_max": 0.7088000000000001,
+          "band_single_draw": {
+            "below": 36,
+            "within": 4,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.07730000000000001,
+          "ci_lo": 0.024905678010413337,
+          "ci_hi": 0.12969432198958664,
+          "reference": 0.7651879999999999,
+          "diff": -0.6878879999999998,
+          "zero_share": 0.5,
+          "set_over_k": 0.042861279999999995,
+          "family_min": 0.0048000000000000004,
+          "family_max": 0.2664,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.025700000000000004,
+          "ci_lo": 0.0,
+          "ci_hi": 0.08086608483299473,
+          "reference": 0.740396,
+          "diff": -0.714696,
+          "zero_share": 0.735,
+          "set_over_k": 0.02369628,
+          "family_min": 0.0008,
+          "family_max": 0.09519999999999999,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.0012,
+          "ci_lo": 0.0002584616558257809,
+          "ci_hi": 0.002141538344174219,
+          "reference": 0.717556,
+          "diff": -0.716356,
+          "zero_share": 0.94,
+          "set_over_k": 0.013049129999999999,
+          "family_min": 0.0,
+          "family_max": 0.0064,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.1337,
+          "ci_lo": 0.11708998822277036,
+          "ci_hi": 0.1503100117772296,
+          "reference": 0.800275,
+          "diff": -0.6665749999999999,
+          "zero_share": 0.52,
+          "set_over_k": 0.03701,
+          "family_min": 0.0064,
+          "family_max": 0.5328,
+          "band_single_draw": {
+            "below": 39,
+            "within": 1,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.0524,
+          "ci_lo": 0.008770481882156608,
+          "ci_hi": 0.0960295181178434,
+          "reference": 0.7651879999999999,
+          "diff": -0.7127879999999999,
+          "zero_share": 0.615,
+          "set_over_k": 0.02364288,
+          "family_min": 0.0016,
+          "family_max": 0.236,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.023399999999999997,
+          "ci_lo": 0.0,
+          "ci_hi": 0.06428639480283459,
+          "reference": 0.740396,
+          "diff": -0.7169960000000001,
+          "zero_share": 0.725,
+          "set_over_k": 0.02635708,
+          "family_min": 0.0,
+          "family_max": 0.09200000000000001,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.0030000000000000005,
+          "ci_lo": 0.002379168000898118,
+          "ci_hi": 0.003620831999101883,
+          "reference": 0.717556,
+          "diff": -0.714556,
+          "zero_share": 0.885,
+          "set_over_k": 0.020271499999999998,
+          "family_min": 0.0,
+          "family_max": 0.0104,
+          "band_single_draw": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 40,
+            "within": 0,
+            "above": 0,
+            "half_width": 0.036124544846087916
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.389,
+          "ci_lo": 0.2853145506295444,
+          "ci_hi": 0.4926854493704555,
+          "reference": 0.800275,
+          "diff": -0.41127499999999995,
+          "zero_share": 0.165,
+          "set_over_k": 0.258901,
+          "family_min": 0.1416,
+          "family_max": 0.66,
+          "band_single_draw": {
+            "below": 35,
+            "within": 5,
+            "above": 0,
+            "half_width": 0.09702251371928278
+          },
+          "band_seed_mean": {
+            "below": 37,
+            "within": 3,
+            "above": 0,
+            "half_width": 0.043389787204844446
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.3637,
+          "ci_lo": 0.30325314903456435,
+          "ci_hi": 0.4241468509654356,
+          "reference": 0.7651879999999999,
+          "diff": -0.40148799999999985,
+          "zero_share": 0.15,
+          "set_over_k": 0.3317568,
+          "family_min": 0.12319999999999999,
+          "family_max": 0.78,
+          "band_single_draw": {
+            "below": 32,
+            "within": 1,
+            "above": 7,
+            "half_width": 0.0900103533888511
+          },
+          "band_seed_mean": {
+            "below": 32,
+            "within": 1,
+            "above": 7,
+            "half_width": 0.040253853771249924
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.5513000000000001,
+          "ci_lo": 0.45654163283876803,
+          "ci_hi": 0.646058367161232,
+          "reference": 0.740396,
+          "diff": -0.18909599999999993,
+          "zero_share": 0.05,
+          "set_over_k": 0.54821568,
+          "family_min": 0.10640000000000001,
+          "family_max": 0.9408,
+          "band_single_draw": {
+            "below": 23,
+            "within": 2,
+            "above": 15,
+            "half_width": 0.08620292502702077
+          },
+          "band_seed_mean": {
+            "below": 23,
+            "within": 2,
+            "above": 15,
+            "half_width": 0.03855112004394727
+          }
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.5958000000000001,
+          "ci_lo": 0.5708058249367337,
+          "ci_hi": 0.6207941750632665,
+          "reference": 0.717556,
+          "diff": -0.12175599999999986,
+          "zero_share": 0.12,
+          "set_over_k": 0.6044281300000001,
+          "family_min": 0.0032,
+          "family_max": 0.9792000000000001,
+          "band_single_draw": {
+            "below": 19,
+            "within": 1,
+            "above": 20,
+            "half_width": 0.08077693793209226
+          },
+          "band_seed_mean": {
+            "below": 19,
+            "within": 0,
+            "above": 21,
+            "half_width": 0.036124544846087916
+          }
+        }
+      ],
+      "decomposition": null
+    },
+    "moderate five (ViT-B/32)": {
+      "backbone": "ViT-B/32",
+      "n_caches": 5,
+      "caches": [
+        "contrast_s1",
+        "contrast_s2",
+        "contrast_s3",
+        "brightness_s1",
+        "brightness_s3"
+      ],
+      "selected_on_outcomes": true,
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.9688000000000001,
+          "ci_lo": 0.9446210045597859,
+          "ci_hi": 0.9929789954402138,
+          "reference": 0.800275,
+          "diff": 0.16852500000000015,
+          "zero_share": 0.0,
+          "set_over_k": 0.7885440000000001
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9279999999999999,
+          "ci_lo": 0.9036684541793337,
+          "ci_hi": 0.9523315458206661,
+          "reference": 0.7651879999999999,
+          "diff": 0.16281200000000007,
+          "zero_share": 0.0,
+          "set_over_k": 0.8068710400000001
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.9031999999999999,
+          "ci_lo": 0.8768252328279996,
+          "ci_hi": 0.9295747671720004,
+          "reference": 0.740396,
+          "diff": 0.16280399999999984,
+          "zero_share": 0.0,
+          "set_over_k": 0.81201696
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.884,
+          "ci_lo": 0.8679061951861862,
+          "ci_hi": 0.9000938048138138,
+          "reference": 0.717556,
+          "diff": 0.16644400000000004,
+          "zero_share": 0.0,
+          "set_over_k": 0.81780304
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.564,
+          "ci_lo": 0.43625938444150264,
+          "ci_hi": 0.6917406155584973,
+          "reference": 0.800275,
+          "diff": -0.236275,
+          "zero_share": 0.0,
+          "set_over_k": 0.085488
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.45439999999999997,
+          "ci_lo": 0.42661334626470426,
+          "ci_hi": 0.4821866537352958,
+          "reference": 0.7651879999999999,
+          "diff": -0.3107879999999999,
+          "zero_share": 0.0,
+          "set_over_k": 0.0518464
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.4872000000000001,
+          "ci_lo": 0.3899752510161632,
+          "ci_hi": 0.5844247489838368,
+          "reference": 0.740396,
+          "diff": -0.253196,
+          "zero_share": 0.0,
+          "set_over_k": 0.048398079999999996
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.3872,
+          "ci_lo": 0.28538960922501183,
+          "ci_hi": 0.48901039077498826,
+          "reference": 0.717556,
+          "diff": -0.330356,
+          "zero_share": 0.0,
+          "set_over_k": 0.03391504
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.6304000000000001,
+          "ci_lo": 0.5677137964945329,
+          "ci_hi": 0.693086203505467,
+          "reference": 0.800275,
+          "diff": -0.1698749999999999,
+          "zero_share": 0.0,
+          "set_over_k": 0.084136
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.46799999999999997,
+          "ci_lo": 0.37461894215652525,
+          "ci_hi": 0.5613810578434747,
+          "reference": 0.7651879999999999,
+          "diff": -0.2971879999999999,
+          "zero_share": 0.04,
+          "set_over_k": 0.05504
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.43439999999999995,
+          "ci_lo": 0.3490515174823818,
+          "ci_hi": 0.5197484825176182,
+          "reference": 0.740396,
+          "diff": -0.3059960000000001,
+          "zero_share": 0.0,
+          "set_over_k": 0.04810912
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.4143999999999999,
+          "ci_lo": 0.36826086181875145,
+          "ci_hi": 0.46053913818124853,
+          "reference": 0.717556,
+          "diff": -0.3031560000000001,
+          "zero_share": 0.0,
+          "set_over_k": 0.03806416
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.7976000000000001,
+          "ci_lo": 0.7473655215999628,
+          "ci_hi": 0.8478344784000369,
+          "reference": 0.800275,
+          "diff": -0.002674999999999872,
+          "zero_share": 0.0,
+          "set_over_k": 0.10337600000000002
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7696000000000001,
+          "ci_lo": 0.743888259434144,
+          "ci_hi": 0.7953117405658559,
+          "reference": 0.7651879999999999,
+          "diff": 0.0044120000000001935,
+          "zero_share": 0.0,
+          "set_over_k": 0.07633152000000001
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.7424,
+          "ci_lo": 0.7100976391719453,
+          "ci_hi": 0.774702360828055,
+          "reference": 0.740396,
+          "diff": 0.0020039999999998948,
+          "zero_share": 0.0,
+          "set_over_k": 0.0720112
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.7240000000000001,
+          "ci_lo": 0.7054164749169185,
+          "ci_hi": 0.7425835250830817,
+          "reference": 0.717556,
+          "diff": 0.006444000000000116,
+          "zero_share": 0.0,
+          "set_over_k": 0.06273408
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.6816000000000001,
+          "ci_lo": 0.5310521444696494,
+          "ci_hi": 0.8321478555303505,
+          "reference": 0.800275,
+          "diff": -0.11867499999999986,
+          "zero_share": 0.0,
+          "set_over_k": 0.090936
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.26160000000000005,
+          "ci_lo": 0.12811794388112485,
+          "ci_hi": 0.39508205611887515,
+          "reference": 0.7651879999999999,
+          "diff": -0.5035879999999998,
+          "zero_share": 0.04,
+          "set_over_k": 0.037271040000000005
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.0832,
+          "ci_lo": 0.0,
+          "ci_hi": 0.22716450189251997,
+          "reference": 0.740396,
+          "diff": -0.6571960000000001,
+          "zero_share": 0.4,
+          "set_over_k": 0.01915104
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.0072,
+          "ci_lo": 0.0,
+          "ci_hi": 0.01608462433663294,
+          "reference": 0.717556,
+          "diff": -0.710356,
+          "zero_share": 0.64,
+          "set_over_k": 0.009799279999999999
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.5584,
+          "ci_lo": 0.4239512370488011,
+          "ci_hi": 0.6928487629511989,
+          "reference": 0.800275,
+          "diff": -0.24187499999999995,
+          "zero_share": 0.0,
+          "set_over_k": 0.084984
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.29600000000000004,
+          "ci_lo": 0.19797929735509368,
+          "ci_hi": 0.3940207026449063,
+          "reference": 0.7651879999999999,
+          "diff": -0.4691879999999998,
+          "zero_share": 0.0,
+          "set_over_k": 0.043380480000000006
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.1752,
+          "ci_lo": 0.032829266077018054,
+          "ci_hi": 0.31757073392298196,
+          "reference": 0.740396,
+          "diff": -0.565196,
+          "zero_share": 0.0,
+          "set_over_k": 0.0336112
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.05279999999999999,
+          "ci_lo": 0.042621384114033184,
+          "ci_hi": 0.06297861588596682,
+          "reference": 0.717556,
+          "diff": -0.664756,
+          "zero_share": 0.0,
+          "set_over_k": 0.02508424
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.6631999999999999,
+          "ci_lo": 0.517447473737394,
+          "ci_hi": 0.808952526262606,
+          "reference": 0.800275,
+          "diff": -0.13707500000000006,
+          "zero_share": 0.0,
+          "set_over_k": 0.095112
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.39039999999999997,
+          "ci_lo": 0.28791344170301547,
+          "ci_hi": 0.49288655829698447,
+          "reference": 0.7651879999999999,
+          "diff": -0.3747879999999999,
+          "zero_share": 0.0,
+          "set_over_k": 0.055432959999999996
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.244,
+          "ci_lo": 0.09890052433089491,
+          "ci_hi": 0.3890994756691052,
+          "reference": 0.740396,
+          "diff": -0.49639600000000006,
+          "zero_share": 0.0,
+          "set_over_k": 0.04513535999999999
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.12480000000000001,
+          "ci_lo": 0.044992776980405144,
+          "ci_hi": 0.20460722301959483,
+          "reference": 0.717556,
+          "diff": -0.592756,
+          "zero_share": 0.0,
+          "set_over_k": 0.03955096
+        }
+      ],
+      "decomposition": null
+    }
+  },
+  "moderate_caches": [
+    {
+      "cache": "contrast_s1",
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.976,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9400000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.9040000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.8960000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.568,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.5,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.504,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.4,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.668,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.46399999999999997,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.42800000000000005,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.404,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.772,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.776,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.736,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.724,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.724,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.25999999999999995,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.06000000000000001,
+          "zero_share": 0.2
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.012,
+          "zero_share": 0.4
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.564,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.312,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.13200000000000003,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.044000000000000004,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.688,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.41600000000000004,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.23200000000000004,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.128,
+          "zero_share": 0.0
+        }
+      ]
+    },
+    {
+      "cache": "contrast_s2",
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.976,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9279999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.908,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.9120000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.46799999999999997,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.308,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.36400000000000005,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.23600000000000004,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.548,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.31999999999999995,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.252,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.24000000000000005,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.776,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7719999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.732,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.736,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.628,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.20400000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.048,
+          "zero_share": 0.6
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.012,
+          "zero_share": 0.4
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.45599999999999996,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.196,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.11600000000000002,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.048,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.6519999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.344,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.22400000000000003,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.156,
+          "zero_share": 0.0
+        }
+      ]
+    },
+    {
+      "cache": "contrast_s3",
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.952,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.932,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.9359999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.924,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.2919999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.124,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.164,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.10400000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.35200000000000004,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.10400000000000001,
+          "zero_share": 0.2
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.092,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.076,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.808,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7639999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.752,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.724,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.472,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.096,
+          "zero_share": 0.2
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.036000000000000004,
+          "zero_share": 0.4
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.0,
+          "zero_share": 1.0
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.284,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.064,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.064,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.052000000000000005,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.504,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.3,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.2,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.22000000000000003,
+          "zero_share": 0.0
+        }
+      ]
+    },
+    {
+      "cache": "brightness_s1",
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.9719999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9279999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.8880000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.836,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.768,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.688,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.72,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.616,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.8119999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.7440000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.728,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.716,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.8160000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.78,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.7479999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.7360000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.8,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.392,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.124,
+          "zero_share": 0.4
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.008,
+          "zero_share": 0.6
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.7639999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.45600000000000007,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.268,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.06,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.7639999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.45600000000000007,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.272,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.06,
+          "zero_share": 0.0
+        }
+      ]
+    },
+    {
+      "cache": "brightness_s3",
+      "per_k": [
+        {
+          "method": "acp",
+          "k": 10,
+          "mean": 0.968,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 25,
+          "mean": 0.9119999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 50,
+          "mean": 0.8800000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "acp",
+          "k": 100,
+          "mean": 0.852,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 10,
+          "mean": 0.724,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 25,
+          "mean": 0.652,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 50,
+          "mean": 0.684,
+          "zero_share": 0.0
+        },
+        {
+          "method": "clustered",
+          "k": 100,
+          "mean": 0.5800000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 10,
+          "mean": 0.772,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 25,
+          "mean": 0.708,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 50,
+          "mean": 0.6719999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "mondrian",
+          "k": 100,
+          "mean": 0.636,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 10,
+          "mean": 0.8160000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 25,
+          "mean": 0.7559999999999999,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 50,
+          "mean": 0.7440000000000001,
+          "zero_share": 0.0
+        },
+        {
+          "method": "oracle",
+          "k": 100,
+          "mean": 0.7,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 10,
+          "mean": 0.784,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 25,
+          "mean": 0.356,
+          "zero_share": 0.0
+        },
+        {
+          "method": "ppi",
+          "k": 50,
+          "mean": 0.148,
+          "zero_share": 0.4
+        },
+        {
+          "method": "ppi",
+          "k": 100,
+          "mean": 0.004,
+          "zero_share": 0.8
+        },
+        {
+          "method": "split",
+          "k": 10,
+          "mean": 0.724,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 25,
+          "mean": 0.45199999999999996,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 50,
+          "mean": 0.296,
+          "zero_share": 0.0
+        },
+        {
+          "method": "split",
+          "k": 100,
+          "mean": 0.06,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 10,
+          "mean": 0.708,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 25,
+          "mean": 0.43600000000000005,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 50,
+          "mean": 0.292,
+          "zero_share": 0.0
+        },
+        {
+          "method": "weighted",
+          "k": 100,
+          "mean": 0.06,
+          "zero_share": 0.0
+        }
+      ]
+    }
+  ],
+  "no_shift": null
+}
